@@ -1,0 +1,231 @@
+@media screen and (max-width: 480px) {
+  /* Add smartphone-specific styles here */
+  .main {
+    width: 100%;
+    margin: 10% 0;
+  }
+  .join {
+    width: 90%;
+    padding: 0.2%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+  .joinHead {
+    width: 100%;
+    padding: 3% 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .joinHea h1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .joinDis p,
+  .joinLower p {
+    width: 90%;
+    padding: 5%;
+    font-size: 0.8rem;
+    margin: 0;
+    color: gray;
+  }
+
+  .joinLower {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .joinLower button {
+    cursor: pointer;
+    min-width: 30%;
+    max-width: 30%;
+    padding: 1.5%;
+    margin: 2% 1%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 17px;
+    border: 1px solid white;
+  }
+  .loginButton {
+    background-color: rgb(66, 66, 66);
+    border-radius: 10px;
+    border: 1.5px solid rgba(161, 161, 161, 0.381);
+    &:hover {
+      background-color: rgb(38, 38, 38);
+    }
+  }
+  .signInButton {
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here */
+}
+
+@media (width >= 1025px) {
+  /* Add laptop-specific styles here */
+  .main {
+    width: 100vw;
+    margin: 2% 0;
+  }
+  .join {
+    width: 90%;
+    padding: 0.1%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+  .joinHead {
+    width: 100%;
+    padding: 3% 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+  }
+  .joinHea h1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 250%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .joinDis p,
+  .joinLower p {
+    width: 100%;
+    font-size: 90%;
+    margin: 0;
+    color: rgb(222, 222, 222);
+  }
+
+  .joinLower {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .joinLower button {
+    cursor: pointer;
+    min-width: 15%;
+    max-width: 15%;
+    padding: 1%;
+    margin: 2% 1%;
+    font-size: 100%;
+    font-weight: 600;
+    color: white;
+    border-radius: 17px;
+    border: 1px solid white;
+  }
+  .loginButton {
+    background-color: rgb(66, 66, 66);
+    border-radius: 10px;
+    border: 1.5px solid rgba(161, 161, 161, 0.381);
+    &:hover {
+      background-color: rgb(38, 38, 38);
+    }
+  }
+  .signInButton {
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+}
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

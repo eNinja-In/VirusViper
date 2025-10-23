@@ -1,0 +1,596 @@
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100%;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginSection {
+    width: 90%;
+    margin: auto;
+    padding: 5% 0;
+  }
+  .loginPage {
+    width: 99%;
+    padding: 0.3%;
+    border-radius: 10px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .login {
+    width: 90%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 5%;
+  }
+  .loginHead {
+    width: 100%;
+  }
+  .loginHeading {
+    width: 100%;
+  }
+  .virusViper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+  }
+  .virusViper h1 {
+    width: fit-content;
+    margin: 1%;
+    font-size: 1.7rem;
+    text-align: center;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .loginError {
+    width: 100%;
+  }
+  .error {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .default {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+    margin: 0;
+  }
+  .loginForm {
+    width: 96%;
+    padding: 2%;
+  }
+  .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    width: 100%;
+  }
+  .inputSection {
+    width: 80%;
+    margin: 5% auto;
+    padding: 0.5%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+  .input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .input input {
+    width: 90%;
+    padding: 2%;
+    font-size: 105%;
+    margin: 1%;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    color: white;
+  }
+
+  .submit {
+    width: 100%;
+    padding: 2% 0;
+  }
+  .submitBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitBtn button {
+    cursor: pointer;
+    width: 35%;
+    padding: 1.5%;
+    font-size: 100%;
+    font-weight: 600;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+
+  .signUp {
+    width: 100%;
+  }
+  .goToSignIn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .goToSignIn p {
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-size: 0.9rem;
+  }
+  .goToSignIn p a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here */
+  .main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .loginSection {
+    width: 50%;
+    margin: auto;
+    padding: 5% 0;
+    /* background-color: beige; */
+  }
+  .loginPage {
+    width: 99%;
+    padding: 0.3%;
+    /* background-color: aquamarine; */
+    border-radius: 10px;
+    /* width: 20vw; */
+    /* height: 90vh; */
+    /* padding: 0.2% 0.2% 0.2% 0; */
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+    /* display: flex; */
+    /* justify-content: start; */
+    /* align-items: center; */
+    /* position: fixed; */
+    /* z-index: 10; */
+    /* border-bottom-right-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+  }
+
+  .login {
+    width: 90%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 5%;
+  }
+  .loginHead {
+    width: 100%;
+  }
+  .loginHeading {
+    width: 100%;
+  }
+  .virusViper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+  }
+  .virusViper h1 {
+    width: fit-content;
+    margin: 1%;
+    font-size: 260%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .loginError {
+    width: 100%;
+    /* background-color: aliceblue; */
+  }
+  .error {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin: 0;
+  }
+  .default {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+    margin: 0;
+  }
+  .loginForm {
+    width: 96%;
+    padding: 2%;
+  }
+  .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:aquamarine; */
+  }
+  form {
+    width: 80%;
+    /* background-color: black; */
+  }
+  .inputSection {
+    width: 80%;
+    margin: 5% auto;
+    padding: 0.5%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+  .input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .input input {
+    width: 90%;
+    padding: 2%;
+    font-size: 105%;
+    margin: 1%;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    color: white;
+  }
+
+  .submit {
+    width: 100%;
+    padding: 2% 0;
+    /* background-color: brown; */
+  }
+  .submitBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitBtn button {
+    cursor: pointer;
+    width: 35%;
+    padding: 1.5%;
+    font-size: 100%;
+    font-weight: 600;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+
+  .signUp {
+    width: 100%;
+  }
+  .goToSignIn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .goToSignIn p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 100%;
+  }
+  .goToSignIn p a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/* Laptop */
+@media (width >= 1025px) {
+  /* Add laptop-specific styles here */
+  .main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .loginSection {
+    width: 50%;
+    margin: auto;
+    padding: 5% 0;
+    /* background-color: beige; */
+  }
+  .loginPage {
+    width: 99%;
+    padding: 0.3%;
+    /* background-color: aquamarine; */
+    border-radius: 10px;
+    /* width: 20vw; */
+    /* height: 90vh; */
+    /* padding: 0.2% 0.2% 0.2% 0; */
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+    /* display: flex; */
+    /* justify-content: start; */
+    /* align-items: center; */
+    /* position: fixed; */
+    /* z-index: 10; */
+    /* border-bottom-right-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+  }
+
+  .login {
+    width: 90%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 5%;
+  }
+  .loginHead {
+    width: 100%;
+  }
+  .loginHeading {
+    width: 100%;
+  }
+  .virusViper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+  }
+  .virusViper h1 {
+    width: fit-content;
+    margin: 1%;
+    font-size: 260%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .loginError {
+    width: 100%;
+    /* background-color: aliceblue; */
+  }
+  .error {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin: 0;
+  }
+  .default {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+    margin: 0;
+  }
+  .loginForm {
+    width: 96%;
+    padding: 2%;
+  }
+  .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:aquamarine; */
+  }
+  form {
+    width: 80%;
+    /* background-color: black; */
+  }
+  .inputSection {
+    width: 80%;
+    margin: 5% auto;
+    padding: 0.5%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+  .input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .input input {
+    width: 90%;
+    padding: 2%;
+    font-size: 105%;
+    margin: 1%;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    color: white;
+  }
+
+  .submit {
+    width: 100%;
+    padding: 2% 0;
+    /* background-color: brown; */
+  }
+  .submitBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitBtn button {
+    cursor: pointer;
+    width: 35%;
+    padding: 1.5%;
+    font-size: 100%;
+    font-weight: 600;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+
+  .signUp {
+    width: 100%;
+  }
+  .goToSignIn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .goToSignIn p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 100%;
+  }
+  .goToSignIn p a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

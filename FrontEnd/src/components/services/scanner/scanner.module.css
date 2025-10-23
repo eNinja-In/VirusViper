@@ -1,0 +1,439 @@
+/* General styles (apply to all devices) */
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+  /* Add smartphone-specific styles here */
+  .main {
+    width: 100%;
+    background-color: rgba(53, 53, 53, 0.198);
+  }
+  .scanner {
+    width: 100%;
+    margin: 0;
+    padding: 20% 0 ;
+  }
+
+  .ScannHeading {
+    width: 100%;
+  }
+  .heading {
+    width: 100%;
+  }
+  .head {
+    width: 100%;
+    text-align: center;
+  }
+  .head h1 {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    font-size: 1.9rem;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .head p {
+    width: 100%;
+    font-size: 0.9rem;
+    color: white;
+  }
+
+  .scanSection {
+    width: 100%;
+  }
+  .scan {
+    width: 90%;
+    margin: auto;
+  }
+  .scan form {
+    width: 100%;
+  }
+  .sanningInput {
+    width: 90%;
+    padding: 0.5%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: violet;
+    animation: colorAnimation 2s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .Input {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .Input input {
+    width: 90%;
+    padding: 2%;
+    font-size: 100%;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: 0;
+  }
+
+  .sanningBtn {
+    width: 100%;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+  }
+  .Btn0,
+  .Btn1 {
+    width: 30%;
+    margin:  2%;
+  }
+
+  .Btn1 button,
+  .Btn0 button {
+    cursor: pointer;
+    width: 100%;
+    /* margin: 0 10%; */
+    padding: 5%;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    background-color: rgb(66, 66, 66);
+  }
+  .Btn1 button {
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here */
+  .main {
+    width: 100%;
+    /* margin: 5% 0 0 0; */
+    background-color: rgba(53, 53, 53, 0.198);
+    /* border-top: 1px solid white; */
+  }
+  .scanner {
+    width: 96%;
+    margin: auto;
+    padding: 5% 0;
+    /* background-color: aqua  ; */
+  }
+
+  .ScannHeading {
+    width: 100%;
+  }
+  .heading {
+    width: 100%;
+  }
+  .head {
+    width: 100%;
+    text-align: center;
+  }
+  .head h1 {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    font-size: 230%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .head p {
+    width: 100%;
+    font-size: 105%;
+    color: white;
+  }
+
+  .scanSection {
+    width: 100%;
+  }
+  .scan {
+    width: 60%;
+    margin: auto;
+  }
+  .scan form {
+    width: 100%;
+  }
+  .sanningInput {
+    width: 80%;
+    padding: 0.2%;
+    margin: auto;
+    border-radius: 10px;
+
+    background-color: violet;
+    animation: colorAnimation 2s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .Input {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .Input input {
+    width: 90%;
+    padding: 2%;
+    font-size: 100%;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: 0;
+  }
+
+  .sanningBtn {
+    width: 100%;
+    padding: 2% 0;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+  }
+  .Btn0,
+  .Btn1 {
+    width: 20%;
+    margin: 0 2%;
+  }
+
+  .Btn1 button,
+  .Btn0 button {
+    cursor: pointer;
+    width: 100%;
+    /* margin: 0 10%; */
+    padding: 4%;
+    color: white;
+    font-size: 100%;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+
+    background-color: rgb(66, 66, 66);
+  }
+  .Btn1 button {
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+}
+
+/* Laptop */
+@media screen and (min-width: 1025px) {
+  /* Add laptop-specific styles here */
+  .main {
+    width: 100%;
+    /* margin: 5% 0 0 0; */
+    background-color: rgba(53, 53, 53, 0.198);
+    /* border-top: 1px solid white; */
+  }
+  .scanner {
+    width: 96%;
+    margin: auto;
+    padding: 5% 0;
+    /* background-color: aqua  ; */
+  }
+
+  .ScannHeading {
+    width: 100%;
+  }
+  .heading {
+    width: 100%;
+  }
+  .head {
+    width: 100%;
+    text-align: center;
+  }
+  .head h1 {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    font-size: 230%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .head p {
+    width: 100%;
+    font-size: 105%;
+    color: white;
+  }
+
+  .scanSection {
+    width: 100%;
+  }
+  .scan {
+    width: 60%;
+    margin: auto;
+  }
+  .scan form {
+    width: 100%;
+  }
+  .sanningInput {
+    width: 80%;
+    padding: 0.2%;
+    margin: auto;
+    border-radius: 10px;
+
+    background-color: violet;
+    animation: colorAnimation 2s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .Input {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .Input input {
+    width: 90%;
+    padding: 2%;
+    font-size: 100%;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: 0;
+  }
+
+  .sanningBtn {
+    width: 100%;
+    padding: 2% 0;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+  }
+  .Btn0,
+  .Btn1 {
+    width: 20%;
+    margin: 0 2%;
+  }
+
+  .Btn1 button,
+  .Btn0 button {
+    cursor: pointer;
+    width: 100%;
+    /* margin: 0 10%; */
+    padding: 4%;
+    color: white;
+    font-size: 100%;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+
+    background-color: rgb(66, 66, 66);
+  }
+  .Btn1 button {
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

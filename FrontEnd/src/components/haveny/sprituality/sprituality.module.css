@@ -1,0 +1,339 @@
+/* General styles (apply to all devices) */
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+  .geetaHome {
+    width: 100%;
+  }
+  .mainChatSection {
+    width: 100%;
+    height: 93vh;
+  }
+  .chatBotSection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bot3DSection {
+    display: none;
+  }
+
+  .ChatSection {
+    width: 100%;
+    max-height: 92vh;
+    min-height: 92vh;
+  }
+  .chatApp {
+    width: 100%;
+    height: 100%;
+    background: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .chatMessages {
+    width: 100%;
+    height: 85.5vh;
+    overflow-y: auto;
+  }
+  .message {
+    width: 94%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+  }
+  .userMsg {
+    max-width: 65%;
+    margin: 0 0 4% auto;
+    padding: 2% 3%;
+    font-size: 1.1rem;
+    color: white;
+    text-align: right;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    background: linear-gradient(
+      0deg,
+      rgba(220, 32, 245, 0.582) 0%,
+      rgba(115, 6, 218, 0.721) 100%
+    );
+    word-wrap: break-word;
+  }
+
+  .botMsg {
+    max-width: 90%;
+    padding: 2% 5% 2% 3%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+    justify-content: left;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    background: linear-gradient(
+      0deg,
+      rgba(220, 32, 245, 0.582) 0%,
+      rgba(115, 6, 218, 0.721) 100%
+    );
+    color: white;
+  }
+
+  .chatAppInput {
+    width: 96%;
+    max-height: 5vh;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  .inputSection {
+    width: 100%;
+  }
+
+  .inputQuery {
+    width: 80%;
+    padding: 0.5% 2%;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.192);
+  }
+  .input {
+    width: 85%;
+  }
+  .input input {
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    padding: 2%;
+    font-size: 1.2rem;
+  }
+  .submitBtn {
+    width: 10%;
+  }
+  .submitBtn img {
+    width: 100%;
+  }
+
+  .copyRightSection {
+    width: 100%;
+    color: white;
+    /* background-color: aqua; */
+  }
+  .copyRight {
+    width: 100%;
+    text-align: center;
+  }
+  .copyRight p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here */
+}
+
+/* Laptop */
+@media (width >= 1025px) {
+  /* Add laptop-specific styles here */
+  .main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .geetaHome {
+    width: 100%;
+  }
+  .mainChatSection {
+    width: 100%;
+    height: 92vh;
+  }
+  .chatBotSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bot3DSection {
+    width: 70%;
+    height: 92vh;
+    background-color: rgba(128, 128, 128, 0.192);
+  }
+  .threeDModel {
+    width: 98%;
+    padding: 0 1%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-position: center;
+    background-size: contain;
+  }
+  .Model {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  Canvas {
+    width: 70vw;
+    height: 92vh;
+  }
+  .ChatSection {
+    width: 29.6%;
+    padding: 0.2%;
+    height: 91vh;
+    border-radius: 20px;
+    animation: colorAnimation 1s ease infinite;
+    background: linear-gradient(0deg, rgb(225, 0, 255) 0%, rgb(33, 0, 63) 100%);
+    background-size: 200% 200%;
+    z-index: 10;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .chatApp {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url("/aiChat/geeta0.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .chatMessages {
+    width: 100%;
+    height: 84vh;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.155);
+  }
+  .message {
+    width: 96%;
+    padding: 3% 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .userMsg {
+    max-width: 65%;
+    margin: 0 0 4% auto;
+    padding: 2% 3%;
+    font-size: 1.2rem;
+    color: white;
+    text-align: right;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    background: linear-gradient(
+      270deg,
+      rgba(220, 32, 245, 0.582) 0%,
+      rgba(115, 6, 218, 0.721) 100%
+    );
+    word-wrap: break-word;
+  }
+
+  .botMsg {
+    max-width: 90%;
+    padding: 2% 5% 2% 3%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    justify-content: left;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    /* border-bottom-left-radius: 0; */
+    background: linear-gradient(
+      0deg,
+      rgba(220, 32, 245, 0.582) 0%,
+      rgba(115, 6, 218, 0.721) 100%
+    );
+    color: white;
+  }
+
+  .chatAppInput {
+    width: 96%;
+    max-height: 5vh;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+
+  .inputSection {
+    width: 100%;
+  }
+
+  .inputQuery {
+    width: 80%;
+    padding: 0.5% 2%;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.228);
+  }
+  .input {
+    width: 85%;
+  }
+  .input input {
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    padding: 2%;
+    font-size: 1.2rem;
+  }
+  .submitBtn {
+    width: 10%;
+  }
+  .submitBtn img {
+    width: 100%;
+  }
+  .copyRightSection {
+    width: 100%;
+    color: white;
+  }
+  .copyRight {
+    width: 100%;
+    text-align: center;
+  }
+  .copyRight p {
+    margin: 0;
+    font-size: 65%;
+  }
+}
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

@@ -1,0 +1,271 @@
+/* General styles (apply to all devices) */
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+  /* Add smartphone-specific styles here */
+  .main {
+    width: 100%;
+    padding: 5% 0 0 0;
+  }
+  .haveny {
+    width: 100%;
+    /* padding: 1%; */
+  }
+  .havenySection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+  }
+  .havenyItems {
+    /* cursor: pointer; */
+    width: 95%;
+    /* height: 20%; */
+    padding: 0.5%;
+    margin: 2%;
+    border-radius: 20px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: rgb(31, 31, 31);
+    &:hover {
+      background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    }
+  }
+  .item {
+    width: 98%;
+    /* height: 100%; */
+    border-radius: 20px;
+    padding: 1%;
+    background-color: black;
+  }
+  .itemInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .itemHead {
+    width: 60%;
+  }
+  .itemHeading {
+    width: 100%;
+  }
+  .itemHeading div {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .itemTail {
+    width: 100%;
+  }
+  .itemName {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .itemName h1 {
+    width: fit-content;
+    font-size: 2rem;
+    margin-bottom: 0;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+  }
+
+  .itemDis {
+    width: 95%;
+    padding: 2%;
+  }
+  .itemDis p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.525);
+  }
+  .itemBtn {
+    width: 100%;
+    padding: 0 0 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .itemBtn button {
+    width: 35%;
+    cursor: pointer;
+    padding: 1%;
+    font-size: 100%;
+    font-weight: 600;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here */
+}
+
+/* Laptop */
+@media screen and (min-width: 1025px) {
+  /* Add laptop-specific styles here */
+  .main {
+    width: 100%;
+    padding: 5% 0 0 0;
+  }
+  .haveny {
+    width: 100%;
+    /* padding: 1%; */
+  }
+  .havenySection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .havenyItems {
+    /* cursor: pointer; */
+    width: 95%;
+    /* height: 20%; */
+    padding: 0.1%;
+    margin: 2%;
+    border-radius: 20px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: rgb(31, 31, 31);
+    &:hover {
+      background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    }
+  }
+  .item {
+    width: 98%;
+    /* height: 100%; */
+    border-radius: 20px;
+    padding: 1%;
+    background-color: black;
+  }
+  .itemInfo {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap:wrap-reverse; */
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .itemHead {
+    width: 35%;
+    /* background-color: aqua; */
+    /* height: 50%; */
+  }
+  .itemHeading {
+    width: 100%;
+    max-height: 50vh;
+    /* min-height: 50vh; */
+    /* background-color: aqua; */
+  }
+  .itemHeading div {
+    width: 100%;
+    height: 50vh;
+    /* background-color: aquamarine; */
+  }
+
+  .itemTail {
+    width: 65%;
+    /* background-color: aqua; */
+  }
+  .itemName {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+  }
+  .itemName h1 {
+    width: fit-content;
+    font-size: 220%;
+    margin-bottom: 0;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+  }
+
+  .itemDis {
+    width: 95%;
+    padding: 2%;
+  }
+  .itemDis p {
+    font-size: 95%;
+    color: rgba(255, 255, 255, 0.525);
+  }
+  .itemBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .itemBtn button {
+    width: 15%;
+    cursor: pointer;
+    padding: 1%;
+    font-size: 100%;
+    font-weight: 600;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

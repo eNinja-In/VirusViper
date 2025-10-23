@@ -1,0 +1,17 @@
+/* General styles (apply to all devices) */
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+    /* Add smartphone-specific styles here */
+  }
+  
+  /* Tablet */
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    /* Add tablet-specific styles here */
+  }
+  
+  /* Laptop */
+  @media (width >= 1025px) {
+    /* Add laptop-specific styles here */
+  }
+  

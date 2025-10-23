@@ -1,0 +1,334 @@
+@media screen and (max-width: 480px) {
+  .scanMainAnalysis {
+    width: 99.8%;
+    padding: 0.1%;
+    border-radius: 20px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+  .analysis {
+    color: white;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .analysisResult {
+    width: 40%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+  }
+  .analysisResultSection {
+    width: 100%;
+  }
+  .scanResultChart {
+    width: 100%;
+  }
+
+  .chartCircle {
+    width: 30vw;
+    height: 30vw;
+    margin: auto;
+    padding: 5%;
+    border-radius: 50%;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+  .Circle {
+    height: 30vw;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .upperResult {
+    width: 90%;
+    text-align: center;
+    transform: rotateZ(-45deg);
+  }
+  .totalMalSus,
+  .lowerResult {
+    width: 100%;
+    font-size: 2.2rem;
+    transform: rotateZ(45deg);
+    padding: 2%;
+  }
+  hr {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.8%;
+    color: white;
+    background-color: white;
+    border: 0;
+  }
+
+  .ifMalSus {
+    width: 100%;
+  }
+  .dangerResult {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .dangerItem {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dangerLogo {
+    width: 25%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+  }
+  .dangerName {
+    width: 69%;
+    padding: 1%;
+  }
+
+  .analysisDetails {
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .analysisDetailTop {
+    width: 100%;
+    text-align: left;
+  }
+  .safeOrNot {
+    width: 100%;
+  }
+  .safeSection {
+    width: 100%;
+  }
+  .safetyResult,
+  .notSafe {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .safetyResult p {
+    color: rgb(8, 207, 8);
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .notSafe p {
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 50, 50);
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .analysisDetailMid {
+    width: 100%;
+  }
+
+  .target {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+  }
+  .target p {
+    width: 100%;
+    text-align: center;
+    color: gray;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+  .target p strong {
+    color: white;
+  }
+  .analysisDetailLow {
+    width: 100%;
+  }
+
+  .resultTag {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) {
+  .scanMainAnalysis {
+    width: 99.8%;
+    padding: 0.1%;
+    border-radius: 20px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+  .analysis {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+  }
+  .analysisResult {
+    width: 20%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+  }
+  .analysisResultSection {
+    width: 100%;
+  }
+  .scanResultChart {
+    width: 100%;
+  }
+
+  .chartCircle {
+    width: 12vw;
+    height: 12vw;
+    margin: auto;
+    padding: 5%;
+    border-radius: 50%;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+  .Circle {
+    height: 12vw;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .upperResult {
+    width: 90%;
+    text-align: center;
+    transform: rotateZ(-45deg);
+  }
+  .totalMalSus,
+  .lowerResult {
+    width: 100%;
+    font-size: 2.2rem;
+    transform: rotateZ(45deg);
+    padding: 2%;
+  }
+  hr {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.8%;
+    color: white;
+    background-color: white;
+    border: 0;
+  }
+
+  .ifMalSus {
+    width: 100%;
+  }
+  .dangerResult {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .dangerItem {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dangerLogo {
+    width: 25%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+  }
+  .dangerName {
+    width: 69%;
+    padding: 1%;
+  }
+
+  .analysisDetails {
+    width: 57%;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .analysisDetailTop {
+    width: 100%;
+  }
+  .safeOrNot {
+    width: 100%;
+  }
+  .safeSection {
+    width: 100%;
+  }
+  .safetyResult,
+  .notSafe {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .safetyResult p {
+    padding: 0;
+    margin: 0;
+    color: rgb(8, 207, 8);
+  }
+  .notSafe p {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 50, 50);
+  }
+
+  .analysisDetailMid {
+    width: 100%;
+  }
+
+  .target {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .target p {
+    color: rgb(192, 192, 192);
+  }
+  .target p strong {
+    color: white;
+  }
+  .analysisDetailLow {
+    width: 100%;
+  }
+
+  .resultTag {
+    width: 20%;
+  }
+  .safeOrNotJPG {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .safeOrNotJPG img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+}

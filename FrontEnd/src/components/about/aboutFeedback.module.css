@@ -1,0 +1,546 @@
+/* General styles (apply to all devices) */
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+  /* Add smartphone-specific styles here */
+  .main {
+    width: 96%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .feedbackSection {
+    width: 90%;
+  }
+  .feedbackHead {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: aliceblue; */
+  }
+  .feedbackHead h1 {
+    width: fit-content;
+    text-align: center;
+    margin: 1%;
+    font-size: 1.9rem;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .feedbackHead p {
+    width: 100%;
+    text-align: center;
+    margin: 1% 0;
+    font-size: 1rem;
+    color: gray;
+  }
+  .response {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aliceblue; */
+  }
+  .resMsg {
+    color: white;
+    margin: 0.6%;
+    font-size: 95%;
+  }
+  .default {
+    color: transparent;
+    margin: 0.6%;
+    font-size: 95%;
+  }
+
+  .feedbackForm {
+    width: 100%;
+  }
+  .inputSection,
+  .textSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+  }
+  .inputInfo {
+    width: 100%;
+  }
+
+  .input {
+    width: 96.2%;
+    padding: 0.4%;
+    margin: 1%;
+    border-radius: 10px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .info,
+  .textinfo {
+    width: 98%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .info input {
+    color: white;
+    width: 90%;
+    padding: 2%;
+    font-size: 0.9rem;
+    outline: none;
+    border: 0;
+    background-color: black;
+  }
+  .textArea {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .text {
+    width: 95%;
+    padding: 0.4%;
+    margin: 1%;
+    border-radius: 10px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .textinfo textarea {
+    color: white;
+    width: 100%;
+    padding: 0;
+    font-size: 1rem;
+    outline: none;
+    border: 0;
+    resize: none;
+    column-count: 4;
+    background-color: black;
+  }
+
+  .submitSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitBtn {
+    width: 50%;
+    padding: 1%;
+  }
+  .submitBtn button {
+    cursor: pointer;
+    width: 92%;
+    padding: 5%;
+    font-size: 1rem;
+    font-weight: 500;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here */
+  .main {
+    width: 96%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .feedbackSection {
+    width: 90%;
+  }
+  .feedbackHead {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .feedbackHead h1 {
+    width: fit-content;
+    text-align: center;
+    margin: 1%;
+    font-size: 270%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .feedbackHead p {
+    width: 100%;
+    text-align: center;
+    margin: 1% 0;
+    font-size: 120%;
+    color: white;
+  }
+  .response {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .resMsg {
+    /* width: 100%; */
+    color: white;
+    /* padding: 0; */
+    /* margin: 0; */
+    margin: 0.6%;
+    font-size: 95%;
+  }
+  .default {
+    /* width: 100%; */
+    color: transparent;
+    /* padding: 0; */
+    margin: 0.6%;
+    font-size: 95%;
+    /* background-color: aqua; */
+  }
+
+  .feedbackForm {
+    width: 100%;
+  }
+  .inputSection,
+  .textSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .inputInfo {
+    width: 35%;
+  }
+
+  .input {
+    width: 96.2%;
+    padding: 0.8%;
+    margin: 1%;
+    border-radius: 10px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .info,
+  .textinfo {
+    width: 98%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .info input {
+    color: white;
+    width: 90%;
+    padding: 2%;
+    font-size: 105%;
+    outline: none;
+    border: 0;
+    background-color: black;
+  }
+  .textArea {
+    width: 70%;
+  }
+  .text {
+    width: 97.2%;
+    padding: 0.4%;
+    margin: 1%;
+    border-radius: 10px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .textinfo textarea {
+    color: white;
+    width: 100%;
+    padding: 0%;
+    font-size: 105%;
+    outline: none;
+    border: 0;
+    resize: none;
+    column-count: 6;
+    background-color: black;
+  }
+
+  .submitSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitBtn {
+    width: 18%;
+    padding: 1%;
+  }
+  .submitBtn button {
+    cursor: pointer;
+    width: 92%;
+    padding: 4%;
+    font-size: 110%;
+    font-weight: 600;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+}
+
+/* Laptop */
+@media screen and (min-width: 1025px) {
+  /* Add laptop-specific styles here */
+  .main {
+    width: 96%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .feedbackSection {
+    width: 90%;
+  }
+  .feedbackHead {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .feedbackHead h1 {
+    width: fit-content;
+    text-align: center;
+    margin: 1%;
+    font-size: 270%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .feedbackHead p {
+    width: 100%;
+    text-align: center;
+    margin: 1% 0;
+    font-size: 120%;
+    color: white;
+  }
+  .response {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .resMsg {
+    /* width: 100%; */
+    color: white;
+    /* padding: 0; */
+    /* margin: 0; */
+    margin: 0.6%;
+    font-size: 95%;
+  }
+  .default {
+    /* width: 100%; */
+    color: transparent;
+    /* padding: 0; */
+    margin: 0.6%;
+    font-size: 95%;
+    /* background-color: aqua; */
+  }
+
+  .feedbackForm {
+    width: 100%;
+  }
+  .inputSection,
+  .textSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .inputInfo {
+    width: 35%;
+  }
+
+  .input {
+    width: 96.2%;
+    padding: 0.8%;
+    margin: 1%;
+    border-radius: 10px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .info,
+  .textinfo {
+    width: 98%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .info input {
+    color: white;
+    width: 90%;
+    padding: 2%;
+    font-size: 105%;
+    outline: none;
+    border: 0;
+    background-color: black;
+  }
+  .textArea {
+    width: 70%;
+  }
+  .text {
+    width: 97.2%;
+    padding: 0.4%;
+    margin: 1%;
+    border-radius: 10px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .textinfo textarea {
+    color: white;
+    width: 100%;
+    padding: 0%;
+    font-size: 105%;
+    outline: none;
+    border: 0;
+    resize: none;
+    column-count: 6;
+    background-color: black;
+  }
+
+  .submitSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitBtn {
+    width: 18%;
+    padding: 1%;
+  }
+  .submitBtn button {
+    cursor: pointer;
+    width: 92%;
+    padding: 4%;
+    font-size: 110%;
+    font-weight: 600;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

@@ -1,0 +1,41 @@
+/* General styles (apply to all devices) */
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+  /* Add smartphone-specific styles here */
+  .main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .scanResult {
+    width: 98%;
+    padding: 1%;
+  }
+
+  .scanMain {
+    width: 100%;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here */
+}
+
+/* Laptop */
+@media screen and (min-width: 1025px)  {
+  .main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .scanResult {
+    width: 98%;
+    padding: 1%;
+  }
+
+  .scanMain {
+    width: 100%;
+  }
+}

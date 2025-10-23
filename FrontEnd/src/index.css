@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    360deg,
+    rgb(212, 0, 255) 0%,
+    rgba(40, 138, 243, 0.87) 100%
+  );
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    rgb(212, 0, 255) 0%,
+    rgba(40, 138, 243, 0.87) 100%
+  );
+}

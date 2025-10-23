@@ -1,0 +1,298 @@
+/* General styles (apply to all devices) */
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+  /* Add smartphone-specific styles here */
+  .main {
+    width: 100vw;
+    margin: 0;
+    /* height: 50vh; */
+    background: black;
+    animation: twinkling 2s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: radial-gradient(white 0.5px, transparent 0px),
+      radial-gradient(white 0.5px, transparent 0.5px),
+      radial-gradient(white 0.5px, transparent 0.5px);
+  }
+
+  .haveny {
+    width: 96%;
+    padding: 2%;
+    height: 100%;
+  }
+  .homeMainSection {
+    width: 100%;
+    height: 100%;
+  }
+  .hevenyIntro {
+    width: 99.6%;
+    padding: 0.2%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+    border-radius: 20px;
+  }
+  .havenyInfo {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color: black;
+    animation: twinkling 2s infinite;
+    background-image: radial-gradient(white 0.5px, transparent 1px),
+      radial-gradient(white 0.5px, transparent 0.5px),
+      radial-gradient(white 0.5px, transparent 0.5px);
+    background-size: 500px 50px, 70px 75px, 100px 100px;
+    background-position: 0 0, 25px 25px, 50px 50px;
+  }
+  .info {
+    width: 100%;
+    padding: 0 ;
+    margin: 0;
+  }
+  .head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .head h1 {
+    width: fit-content;
+    font-size: 1.7rem;
+    color: white;
+    margin: 2% 0;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .head h4 {
+    width: 98%;
+    padding: 0 1%;
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0;
+    color: white;
+  }
+  .head p {
+    width: 94%;
+    padding: 3%;
+    font-size: 0.75rem;
+    color: gray;
+    text-align: center;
+  }
+
+  .havenyModel {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .Model {
+    width: 100%;
+    height: 100%;
+    height: fit-content;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    animation: twinkling 2s infinite;
+    background-image: radial-gradient(white 0.5px, transparent 1px),
+      radial-gradient(white 0.5px, transparent 0.5px),
+      radial-gradient(white 0.5px, transparent 0.5px);
+    background-size: 500px 50px, 70px 75px, 100px 100px;
+    background-position: 0 0, 25px 25px, 50px 50px;
+  }
+  .Model div {
+    width: 100%;
+    height: 40vh;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here */
+}
+
+/* Laptop */
+@media screen and (min-width: 1025px) {
+  /* Add laptop-specific styles here */
+
+  .main {
+    width: 100vw;
+    margin: 0;
+    /* height: 100vh; */
+    background: black;
+    animation: twinkling 2s infinite;
+    background-image: radial-gradient(white 0.5px, transparent 0px),
+      radial-gradient(white 0.5px, transparent 0.5px),
+      radial-gradient(white 0.5px, transparent 0.5px);
+    /* background-size: 50px 50px, 75px 75px, 100px 100px; */
+    /* background-position: 0 0, 25px 25px, 50px 50px; */
+  }
+
+  .haveny {
+    width: 96%;
+    padding: 2%;
+    /* background-color: aquamarine; */
+  }
+  .homeMainSection {
+    width: 100%;
+    /* background-color: blue; */
+  }
+  .hevenyIntro {
+    width: 99.8%;
+    /* height: fit-content; */
+
+    padding: 0.1%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: aqua;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+    border-radius: 20px;
+  }
+  .havenyInfo {
+    width: 60%;
+    /* height: 100%; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    animation: twinkling 2s infinite;
+    background-image: radial-gradient(white 0.5px, transparent 1px),
+      radial-gradient(white 0.5px, transparent 0.5px),
+      radial-gradient(white 0.5px, transparent 0.5px);
+    background-size: 500px 50px, 70px 75px, 100px 100px;
+    background-position: 0 0, 25px 25px, 50px 50px;
+  }
+  .info {
+    width: 92%;
+    padding: 0 5% 0 3%;
+    /* background-color: aqua; */
+  }
+  .head {
+    width: 100%;
+    /* background-color: aquamarine; */
+  }
+  .head h1 {
+    width: fit-content;
+    font-size: 270%;
+    color: white;
+    margin: 2% 0;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .head h4 {
+    width: 100%;
+    font-size: 110%;
+    margin: 0;
+    color: white;
+  }
+  .head p {
+    width: 100%;
+    font-size: 95%;
+    color: gray;
+  }
+
+  .havenyModel {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 40%;
+    height: 69vh;
+    height: 100%;
+  }
+
+  .Model {
+    width: 100%;
+    height: fit-content;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: black;
+    animation: twinkling 2s infinite;
+    background-image: radial-gradient(white 0.5px, transparent 1px),
+      radial-gradient(white 0.5px, transparent 0.5px),
+      radial-gradient(white 0.5px, transparent 0.5px);
+    background-size: 500px 50px, 70px 75px, 100px 100px;
+    background-position: 0 0, 25px 25px, 50px 50px;
+  }
+  .Model Canvas {
+    min-width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@keyframes twinkling {
+  0%,
+  100% {
+    background-opacity: 0.7;
+    filter: brightness(1);
+  }
+  50% {
+    background-opacity: 1;
+    filter: brightness(1);
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

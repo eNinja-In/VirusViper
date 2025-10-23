@@ -1,0 +1,221 @@
+@media screen and (max-width: 480px) {
+  .scanMainResult {
+    width: 100%;
+    margin: 1% 0;
+  }
+  .scanMainResultSection {
+    width: 100%;
+  }
+  .scanMainResultDetails {
+    width: 100%;
+  }
+
+  .scanMainResultDetailsHeading {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .detailHeading {
+    width: 20%;
+    margin: 0.5%;
+  }
+  .headingItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headingItem h2 {
+    width: 100%;
+    margin: 2%;
+    font-size: 150%;
+    background-color: aqua;
+  }
+
+  .scanMainResultDetails {
+    width: 100%;
+  }
+  .scanMainResultDetailsItems {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .ItemKey {
+    width: 47%;
+    min-height: 6vh;
+    max-height: 6vh;
+    margin: 1%;
+    padding: 0.2%;
+    display: flex;
+    border-radius: 15px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .itemSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+  }
+  .ItemDetails {
+    width: 46%;
+    padding: 2%;
+  }
+  .item {
+    width: 98%;
+    padding: 4% 1%;
+  }
+  .itemSafeCheck {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .safeIcon {
+    width: 20%;
+  }
+  .icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .safeInfo {
+    display: none;
+  }
+  .item p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) {
+
+  .scanMainResult {
+    width: 100%;
+    margin: 1% 0;
+  }
+  .scanMainResultSection {
+    width: 100%;
+  }
+  .scanMainResultDetails {
+    width: 100%;
+  }
+
+  .scanMainResultDetailsHeading {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .detailHeading {
+    width: 20%;
+    margin: 0.5%;
+  }
+  .headingItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headingItem h2 {
+    width: 100%;
+    margin: 2%;
+    font-size: 150%;
+  }
+
+  .scanMainResultDetails {
+    width: 100%;
+  }
+  .scanMainResultDetailsItems {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .ItemKey {
+    width: 48.8%;
+    margin: 0.5%;
+    padding: 0.1%;
+    display: flex;
+    border-radius: 15px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .itemSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+  }
+  .ItemDetails {
+    width: 45%;
+    margin: 0.5%;
+  }
+  .item {
+    width: 98%;
+    padding: 4% 1%;
+  }
+  .itemSafeCheck {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .safeIcon {
+    width: 20%;
+  }
+  .icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .safeInfo {
+    width: 50%;
+  }
+  .item p {
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 110%;
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

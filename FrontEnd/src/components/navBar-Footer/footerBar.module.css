@@ -1,0 +1,223 @@
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100%;
+    background: linear-gradient(
+      20deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+  }
+  .footerBar {
+    width: 100%;
+  }
+  .footerSection {
+    width: 94%;
+    margin: 0 3%;
+    display: flex;
+  }
+  .footerLogo {
+    width: 30%;
+    display: none;
+  }
+
+  .footerNavigation {
+    width: 100%;
+  }
+  .navMenu {
+    width: 100%;
+    display: flex;
+  }
+  .navList {
+    width: 30%;
+  }
+  .listItem {
+    width: 100%;
+  }
+  .itemHeading {
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+  .itemHeading h1 {
+    font-size: 1rem;
+    color: white;
+    padding: 0 0 0 3%;
+    border-bottom: 1.5px solid transparent;
+    &:hover {
+      border-color: white;
+    }
+  }
+  .listItem a {
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+  }
+  .Item {
+    width: 100%;
+    width: 80%;
+    padding: 2%;
+    margin: 2% 0;
+    border-radius: 10px;
+    border: 1.5px solid transparent;
+    &:hover {
+      border-color: white;
+    }
+  }
+  .Item p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .main {
+    width: 100%;
+    background: linear-gradient(
+      20deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+  }
+  .footerBar {
+    width: 100%;
+  }
+  .footerSection {
+    width: 94%;
+    margin: 0 3%;
+    display: flex;
+  }
+  .footerLogo {
+    width: 30%;
+  }
+  .footerLogoVirus {
+    width: 100%;
+  }
+  .footerLogoVirus img {
+    width: 80%;
+  }
+
+  .footerNavigation {
+    width: 70%;
+  }
+  .navMenu {
+    width: 100%;
+    display: flex;
+  }
+  .navList {
+    width: 25%;
+  }
+  .listItem {
+    width: 100%;
+  }
+  .itemHeading {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  .itemHeading h1 {
+    font-size: 170%;
+    color: white;
+    padding: 0 0 0 4%;
+    border-bottom: 1.5px solid transparent;
+    &:hover {
+      border-color: white;
+    }
+  }
+  .listItem a {
+    font-size: 105%;
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+  }
+  .Item {
+    width: 100%;
+    width: 80%;
+    padding: 2%;
+    margin: 2% 0;
+    border-radius: 10px;
+    border: 1.5px solid transparent;
+    &:hover {
+      border-color: white;
+    }
+  }
+  .Item p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .main {
+    width: 100%;
+    background: linear-gradient(
+      20deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+  }
+  .footerBar {
+    width: 100%;
+  }
+  .footerSection {
+    width: 94%;
+    margin: 0 3%;
+    display: flex;
+  }
+  .footerLogo {
+    width: 30%;
+  }
+  .footerLogoVirus {
+    width: 100%;
+  }
+  .footerLogoVirus img {
+    width: 80%;
+  }
+
+  .footerNavigation {
+    width: 70%;
+  }
+  .navMenu {
+    width: 100%;
+    display: flex;
+  }
+  .navList {
+    width: 25%;
+  }
+  .listItem {
+    width: 100%;
+  }
+  .itemHeading {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  .itemHeading h1 {
+    font-size: 170%;
+    color: white;
+    padding: 0 0 0 4%;
+    border-bottom: 1.5px solid transparent;
+    &:hover {
+      border-color: white;
+    }
+  }
+  .listItem a {
+    font-size: 105%;
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+  }
+  .Item {
+    width: 100%;
+    width: 80%;
+    padding: 2%;
+    margin: 2% 0;
+    border-radius: 10px;
+    border: 1.5px solid transparent;
+    &:hover {
+      border-color: white;
+    }
+  }
+  .Item p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}

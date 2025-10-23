@@ -1,0 +1,308 @@
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100%;
+  }
+  .navSlideBar {
+    width: 60vw;
+    height: 75vh;
+    padding: 0.6%;
+    padding-left: 0;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+    position: fixed;
+    z-index: 10;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .slideBar {
+    width: 100%;
+    background-color: black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .slideHead {
+    display: flex;
+    width: 94%;
+    padding: 5% 3% 0 3%;
+  }
+  .slideViroxLogo {
+    width: 80%;
+  }
+  .slideViroxLogo h1 {
+    font-size: 2rem;
+    margin: 0;
+    width: fit-content;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+  }
+  .slideCloseLogo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slideCloseLogo img {
+    cursor: pointer;
+    width: 70%;
+    transform: rotateY(180deg);
+  }
+  .slideMenu {
+    width: 100%;
+    margin: 5% 0 0 0;
+    padding: 5% 0;
+  }
+  .navList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navList a {
+    width: 100%;
+    margin: 1% 0;
+    text-decoration: none;
+    color: white;
+  }
+  .listItem {
+    width: 90%;
+    font-size: 1rem;
+    padding: 3% 0 3% 3%;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    &:hover {
+      border-color: white;
+    }
+  }
+  .listItem p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navBar {
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(76, 76, 76, 0.266);
+  }
+  .navItem {
+    width: 7%;
+    padding: 0 1% 0 1%;
+    display: flex;
+    align-items: center;
+  }
+  .navItemHead {
+    width: 60%;
+  }
+  .heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .heading h1 {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0%;
+    font-size: 2rem;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        180deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .slideLogo {
+    width: 100%;
+  }
+  .newChat {
+    display: none;
+  }
+  .newChat img,
+  .slideLogo img {
+    cursor: pointer;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+}
+@media (width >= 1025px) {
+  .main {
+    width: 100%;
+  }
+  .navSlideBar {
+    width: 16vw;
+    height: 90vh;
+    padding: 0.2% 0.2% 0.2% 0;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .slideBar {
+    width: 100%;
+    height: 89.98vh;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .slideHead {
+    display: flex;
+    width: 94%;
+    padding: 5% 3% 0 3%;
+  }
+  .slideViroxLogo {
+    width: 80%;
+  }
+  .slideViroxLogo h1 {
+    font-size: 2.8rem;
+    margin: 0;
+    width: fit-content;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+  }
+  .slideCloseLogo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slideCloseLogo img {
+    cursor: pointer;
+    width: 70%;
+    transform: rotateY(180deg);
+  }
+  .slideMenu {
+    width: 100%;
+    margin: 5% 0 0 0;
+    padding: 5% 0;
+  }
+  .navList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navList a {
+    width: 100%;
+    margin: 1% 0;
+    text-decoration: none;
+    color: white;
+  }
+  .listItem {
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 3% 0 3% 3%;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    &:hover {
+      border-color: white;
+    }
+  }
+  .listItem p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+  }
+  .navItem {
+    width: 2%;
+    padding: 0 1% 0 1%;
+    display: flex;
+    align-items: center;
+    /* background-color: aquamarine; */
+  }
+  .navItemHead {
+    width: 20%;
+    /* background-color: blanchedalmond; */
+  }
+  .heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .heading h1 {
+    width: fit-content;
+    padding: 0;
+    margin: 1%;
+    font-size: 2.2rem;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        180deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .slideLogo,
+  .newChat {
+    width: 100%;
+  }
+  .newChat img,
+  .slideLogo img {
+    cursor: pointer;
+    width: 100%;
+  }
+}
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

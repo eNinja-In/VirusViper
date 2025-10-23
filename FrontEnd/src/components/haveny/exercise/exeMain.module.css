@@ -1,0 +1,361 @@
+/* General styles (apply to all devices) */
+/* .ChatSection {
+  display: none;
+  flex-direction: column;
+} */
+/* Smartphone */
+@media screen and (max-width: 480px) {
+  /* Add smartphone-specific styles here */
+  .main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .navBar {
+    width: 100%;
+  }
+  .geetaHome {
+    width: 100%;
+  }
+
+  .mainChatSection {
+    width: 100%;
+    height: 93vh;
+  }
+
+  .chatBotSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bot3DSection {
+    width: 100%;
+    height: 93vh;
+    background-color: rgba(128, 128, 128, 0.192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+  }
+
+  .threeDModel {
+    width: 98%;
+    padding: 0 1%;
+    /* min-width: 100%; */
+    /* max-width: 100%; */
+    min-height: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(
+      180deg,
+      rgba(225, 0, 255, 0.562) 0%,
+      rgba(132, 0, 255, 0.429) 100%
+    );
+  }
+  .threeDModel div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    /* min-width: 100%; */
+    /* max-width: 100%; */
+    /* min-height: 100%; */
+    /* max-height: 100%; */
+    /* scale: 1.13; */
+  }
+  .ChatSection {
+    width: 60vw;
+    position: fixed;
+    right: 0;
+    top: 4vh;
+    padding: 0.1% 0.1%;
+    height: 80vh;
+    border: 2px solid white;
+    border-right: 0;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background: linear-gradient(
+      130deg,
+      rgba(225, 0, 255, 0.562) 0%,
+      rgba(132, 0, 255, 0.429) 100%
+    );
+    background-color: black;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .ChatSection {
+    display: none;
+  }
+
+  .ChatSection.show {
+    display: flex;
+  }
+  .yogaBar {
+    z-index: 100;
+    cursor: pointer;
+    width: 25vw;
+    position: fixed;
+    top: 4vh;
+    right: 0;
+    right: 0;
+    background-color: white;
+    background: linear-gradient(
+      100deg,
+      rgba(176, 1, 199, 0.562) 0%,
+      rgba(132, 0, 255, 0.429) 100%
+    );
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+  }
+  .yogaBtn {
+    text-align: center;
+    width: 100%;
+    padding: 5% 0;
+    font-size: 1.1rem;
+
+  }
+  .healthyOption {
+    width: 100%;
+  }
+  .optionList {
+    width: 98%;
+    padding: 1%;
+  }
+  .optionList a {
+    text-decoration: none;
+    color: white;
+  }
+  .listItem {
+    width: 93%;
+    padding: 3%;
+    margin: 2% 0;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    &:hover {
+      border-color: white;
+    }
+  }
+  .listItem p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .model {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .model div {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+  }
+  .copyRightSection {
+    width: 100%;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .copyRight {
+    width: 100%;
+    text-align: center;
+  }
+  .copyRight p {
+    margin: 0;
+    font-size: 65%;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .ChatSection {
+    display: flex;
+  }
+  /* Add tablet-specific styles here */
+}
+
+/* Laptop */
+@media screen and (min-width: 1025px) {
+  /* Add laptop-specific styles here */
+
+  .main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .navBar {
+    width: 100%;
+  }
+  .geetaHome {
+    width: 100%;
+  }
+
+  .mainChatSection {
+    width: 100%;
+    height: 92vh;
+  }
+  .yogaBar {
+    z-index: 100;
+    cursor: pointer;
+    width: 10vw;
+    position: fixed;
+    top: 5.2vh;
+    right: 0;
+    right: 0;
+    background-color: white;
+    background: linear-gradient(
+      100deg,
+      rgba(176, 1, 199, 0.562) 0%,
+      rgba(132, 0, 255, 0.429) 100%
+    );
+    border: 1.5px solid white;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+  }
+  .yogaBtn {
+    text-align: center;
+    width: 100%;
+    padding: 5% 0;
+    font-size: 1.3rem;
+  }
+  .chatBotSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bot3DSection {
+    width: 100%;
+    height: 92vh;
+    background-color: rgba(128, 128, 128, 0.192);
+  }
+
+  .threeDModel {
+    width: 98%;
+    padding: 0 1%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(
+      180deg,
+      rgba(225, 0, 255, 0.562) 0%,
+      rgba(132, 0, 255, 0.429) 100%
+    );
+  }
+  .threeDModel div {
+    width: 100%;
+    height: 100%;
+  }
+  .ChatSection {
+    width: 20vw;
+    position: fixed;
+    right: 0;
+    padding: 0.1% 0.1%;
+    height: 92vh;
+    border: 2px solid white;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: aqua;
+    background: linear-gradient(
+      130deg,
+      rgba(225, 0, 255, 0.562) 0%,
+      rgba(132, 0, 255, 0.429) 100%
+    );
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .healthyOption {
+    width: 100%;
+  }
+  .optionList {
+    width: 98%;
+    padding: 1%;
+  }
+  .optionList a {
+    text-decoration: none;
+    color: white;
+  }
+  .listItem {
+    width: 93%;
+    padding: 3%;
+    margin: 2% 0;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    &:hover {
+      border-color: white;
+    }
+  }
+  .listItem p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .model {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .model div {
+    width: 100%;
+    height: 100%;
+  }
+  .copyRightSection {
+    width: 100%;
+    color: white;
+  }
+  .copyRight {
+    width: 100%;
+    text-align: center;
+  }
+  .copyRight p {
+    margin: 0;
+    font-size: 65%;
+  }
+}
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

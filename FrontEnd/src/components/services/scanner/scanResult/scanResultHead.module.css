@@ -1,0 +1,186 @@
+/* General styles (apply to all devices) */
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+  /* Add smartphone-specific styles here */
+  .scanHead {
+    width: 94%;
+    /* background-color: aquamarine; */
+    margin: 2%;
+  }
+  .scanHeading {
+    width: 100%;
+  }
+  .heading {
+    width: 100%;
+  }
+  .virusviper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .virusviper h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 0.5% 0;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+
+  .scanSubHeading {
+    width: 100%;
+  }
+  .subHeading {
+    width: 100%;
+  }
+  .virusScan {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .virusScan p {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .scanHead {
+    width: 100%;
+    margin: 0 0 2% 0;
+  }
+  .scanHeading {
+    width: 100%;
+  }
+  .heading {
+    width: 100%;
+  }
+  .virusviper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .virusviper h1 {
+    width: fit-content;
+    font-size: 270%;
+    margin: 0 0 0.5% 0;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+
+  .scanSubHeading {
+    width: 100%;
+  }
+  .subHeading {
+    width: 100%;
+  }
+  .virusScan {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .virusScan p {
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 95%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .scanHead {
+    width: 100%;
+    margin: 0 0 2% 0;
+  }
+  .scanHeading {
+    width: 100%;
+  }
+  .heading {
+    width: 100%;
+  }
+  .virusviper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .virusviper h1 {
+    width: fit-content;
+    font-size: 270%;
+    margin: 0 0 0.5% 0;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+
+  .scanSubHeading {
+    width: 100%;
+  }
+  .subHeading {
+    width: 100%;
+  }
+  .virusScan {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .virusScan p {
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 95%;
+  }
+}

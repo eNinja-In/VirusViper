@@ -1,0 +1,431 @@
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .virusIntro {
+    width: 96%;
+    padding: 0 2%;
+  }
+  .IntroUpper {
+    width: 100%;
+  }
+  .IntroWelcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .virusviper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .virusviper h1 {
+    text-align: center;
+    width: fit-content;
+    margin: 1% 0;
+    font-size: 2rem;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .virusviper h4 {
+    width: 90%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: gray;
+  }
+
+  .IntroLower {
+    width: 94%;
+    padding: 0.2%;
+    margin: 3%;
+    border-radius: 20px;
+    animation: colorAnimation 2s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .Introduction {
+    width: 100%;
+    padding: 1.5% 0;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+  .virus {
+    width: 94%;
+    padding: 0% 3%;
+  }
+  .info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .info h1 {
+    display: none;
+  }
+  .info p {
+    width: 100%;
+    font-size: 0.9rem;
+    color: gray;
+    text-align: center;
+  }
+
+  .virusLogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Logo {
+    width: 70%;
+    height: 35vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Logo div {
+    min-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here */
+  .main {
+    /* background-color: aqua; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .virusIntro {
+    width: 96%;
+    padding: 0 2%;
+    /* background-color: aqua; */
+  }
+  .IntroUpper {
+    width: 100%;
+  }
+  .IntroWelcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .virusviper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .virusviper h1 {
+    text-align: center;
+    width: fit-content;
+    margin: 1% 0;
+    font-size: 250%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .virusviper h4 {
+    width: 100%;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+
+  .IntroLower {
+    width: 94%;
+    /* height: 63vh; */
+    padding: 0.08%;
+    margin: auto;
+    margin: 3%;
+    border-radius: 20px;
+    animation: colorAnimation 2s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .Introduction {
+    width: 100%;
+    display: flex;
+    padding: 1.5% 0;
+    /* margin: 2%; */
+    /* height: 60vh; */
+    /* border: ; */
+    border-radius: 20px;
+    /* background-color: rgba(255, 255, 255, 0.13); */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .virus {
+    width: 60%;
+    padding: 4% 1%;
+  }
+  .info {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+  }
+  .info h1 {
+    width: fit-content;
+    color: white;
+    font-size: 220%;
+    /* margin: 0; */
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .info p {
+    width: 100%;
+    font-size: 95%;
+    color: rgb(151, 151, 151);
+    text-align: center;
+  }
+
+  .virusLogo {
+    /* background-color: bisque; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  .Logo {
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+  }
+  .Logo img {
+    width: 95%;
+  }
+  .Logo div {
+    min-width: 100%;
+    height: 100%;
+    /* border-radius: 20px; */
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Laptop */
+@media screen and (min-width: 1025px) {
+  /* Add laptop-specific styles here */
+  .main {
+    /* background-color: aqua; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .virusIntro {
+    width: 96%;
+    padding: 0 2%;
+    /* background-color: aqua; */
+  }
+  .IntroUpper {
+    width: 100%;
+  }
+  .IntroWelcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .virusviper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .virusviper h1 {
+    text-align: center;
+    width: fit-content;
+    margin: 1% 0;
+    font-size: 250%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .virusviper h4 {
+    width: 100%;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+
+  .IntroLower {
+    width: 94%;
+    /* height: 63vh; */
+    padding: 0.08%;
+    margin: auto;
+    margin: 3%;
+    border-radius: 20px;
+    animation: colorAnimation 2s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .Introduction {
+    width: 100%;
+    display: flex;
+    padding: 1.5% 0;
+    /* margin: 2%; */
+    /* height: 60vh; */
+    /* border: ; */
+    border-radius: 20px;
+    /* background-color: rgba(255, 255, 255, 0.13); */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .virus {
+    width: 60%;
+    padding: 4% 1%;
+  }
+  .info {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+  }
+  .info h1 {
+    width: fit-content;
+    color: white;
+    font-size: 220%;
+    /* margin: 0; */
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .info p {
+    width: 100%;
+    font-size: 95%;
+    color: rgb(151, 151, 151);
+    text-align: center;
+  }
+
+  .virusLogo {
+    /* background-color: bisque; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  .Logo {
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+  }
+  .Logo img {
+    width: 95%;
+  }
+  .Logo div {
+    min-width: 100%;
+    height: 100%;
+    /* border-radius: 20px; */
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

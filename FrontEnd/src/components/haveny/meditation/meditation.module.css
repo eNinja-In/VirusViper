@@ -1,0 +1,594 @@
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100%;
+    overflow: hidden;
+  }
+  .meditation {
+    width: 100%;
+  }
+  .navBar {
+    width: 100%;
+    height: 4vh;
+    margin: 0;
+    background-color: rgba(40, 40, 40, 0.278);
+  }
+  .mainMeditation {
+    width: 100%;
+    height: 100%;
+    /* height: 91vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: aquamarine; */
+    /* height: 94vh */
+  }
+  .meditationModel {
+    width: 100%;
+    height: 36vh;
+    padding: 0.15%;
+    top: 0;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+    border-radius: 20px;
+  }
+  .model {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: black;
+    animation: twinkling 2s infinite;
+    background-image: radial-gradient(white 0.5px, transparent 1px),
+      radial-gradient(white 0.5px, transparent 0.5px),
+      radial-gradient(white 0.5px, transparent 0.5px);
+    background-size: 500px 50px, 70px 75px, 100px 100px;
+    background-position: 0 0, 25px 25px, 50px 50px;
+  }
+  .model div {
+    width: 100%;
+    height: 100%;
+  }
+  .meditationOptions {
+    width: 100%;
+    /* padding: 0.5%; */
+    max-height: 57vh;
+    overflow-y: auto;
+    /* padding: 0%; */
+    /* background-color: blue; */
+  }
+  .meditationItemsList {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+    /* align-items: center; */
+  }
+  .meditationItems {
+    width: 45%;
+    height: 35vh;
+    margin: 0 1% 2% 1%;
+    padding: 0.3%;
+    background-color: rgba(60, 60, 60, 0.359);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.359),
+      rgba(60, 60, 60, 0.359)
+    );
+
+    &:hover {
+      animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+      background: linear-gradient(200deg, rgb(187, 0, 211), rgb(94, 0, 182));
+      background-size: 200% 200%;
+    }
+  }
+  .itemSection {
+    width: 94%;
+    padding: 3%;
+    /* height: 100%; */
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    /* text-align: center; */
+  }
+  .itemModel {
+    width: 100%;
+    max-height: 60%;
+    min-height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    border-radius: 20px;
+  }
+  .itemModel img {
+    width: 80%;
+    height: fit-content;
+    /* max-width: 100%; */
+
+    /* height: 100%; */
+  }
+  .itemSection h3 {
+    width: 100%;
+    text-align: center;
+    /* width: fit-content; */
+    margin: 0;
+    font-size: 1.1rem;
+    text-align: center;
+    /* background-color: aqua; */
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+  }
+
+  .itemSection h2 {
+    font-size: 0.9rem;
+    margin: 1%;
+    text-align: center;
+  }
+  .itemSection p {
+    width: 90%;
+    min-height: 5rem;
+    max-height: 5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    color: gray;
+  }
+  .freqBtn {
+    display: none;
+    width: 98%;
+    padding: 1%;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+  }
+  .freqBtn button {
+    cursor: pointer;
+    width: 13%;
+    padding: 2% 4%;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+    /* height: auto; */
+  }
+  .footer {
+    width: 100%;
+    background-color: black;
+    /* z-index: 1000; */
+    height: 3vh;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .main {
+    width: 100%;
+    overflow: hidden;
+  }
+  .meditation {
+    width: 100%;
+  }
+  .navBar {
+    width: 100%;
+    height: 6vh;
+    background-color: rgba(40, 40, 40, 0.278);
+  }
+  .mainMeditation {
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    /* height: 94vh */
+  }
+  .meditationModel {
+    width: 49.7%;
+    padding: 0.15%;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+    border-radius: 20px;
+  }
+  .model {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: black;
+    animation: twinkling 2s infinite;
+    background-image: radial-gradient(white 0.5px, transparent 1px),
+      radial-gradient(white 0.5px, transparent 0.5px),
+      radial-gradient(white 0.5px, transparent 0.5px);
+    background-size: 500px 50px, 70px 75px, 100px 100px;
+    background-position: 0 0, 25px 25px, 50px 50px;
+  }
+  .model div {
+    width: 100%;
+    height: 100%;
+  }
+  .meditationOptions {
+    width: 50%;
+    /* padding: 0.5%; */
+    max-height: 90vh;
+    overflow-y: auto;
+    /* padding: 0%; */
+    /* background-color: blue; */
+  }
+  .meditationItemsList {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+    /* align-items: center; */
+  }
+  .meditationItems {
+    width: 45%;
+    /* height: fit-content; */
+    margin: 0 1% 2% 1%;
+    padding: 0.3%;
+    background-color: rgba(60, 60, 60, 0.359);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.359),
+      rgba(60, 60, 60, 0.359)
+    );
+
+    &:hover {
+      animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+      background: linear-gradient(200deg, rgb(187, 0, 211), rgb(94, 0, 182));
+      background-size: 200% 200%;
+    }
+  }
+  .itemSection {
+    width: 94%;
+    padding: 3%;
+    /* height: 96%; */
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    /* text-align: center; */
+  }
+  .itemModel {
+    width: 100%;
+    max-height: 15rem;
+    min-height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    border-radius: 20px;
+  }
+  .itemModel img {
+    width: 80%;
+    height: fit-content;
+    /* max-width: 100%; */
+
+    /* height: 100%; */
+  }
+  .itemSection h3 {
+    width: 100%;
+    /* width: fit-content; */
+    margin: 0;
+    font-size: 1.6rem;
+    text-align: center;
+    /* background-color: aqua; */
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+  }
+
+  .itemSection h2 {
+    font-size: 1.2rem;
+    margin: 1%;
+    text-align: center;
+  }
+  .itemSection p {
+    width: 90%;
+    min-height: 2rem;
+    max-height: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    color: gray;
+  }
+  .freqBtn {
+    width: 98%;
+    padding: 1%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .freqBtn button {
+    cursor: pointer;
+    width: 13%;
+    padding: 2% 4%;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+    /* height: auto; */
+  }
+  .footer {
+    width: 100%;
+    background-color: black;
+    /* z-index: 1000; */
+    height: 3vh;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .main {
+    width: 100%;
+    overflow: hidden;
+  }
+  .meditation {
+    width: 100%;
+  }
+  .navBar {
+    width: 100%;
+    height: 6vh;
+    background-color: rgba(40, 40, 40, 0.278);
+  }
+  .mainMeditation {
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    /* height: 94vh */
+  }
+  .meditationModel {
+    width: 49.7%;
+    padding: 0.15%;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+    border-radius: 20px;
+  }
+  .model {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: black;
+    animation: twinkling 2s infinite;
+    background-image: radial-gradient(white 0.5px, transparent 1px),
+      radial-gradient(white 0.5px, transparent 0.5px),
+      radial-gradient(white 0.5px, transparent 0.5px);
+    background-size: 500px 50px, 70px 75px, 100px 100px;
+    background-position: 0 0, 25px 25px, 50px 50px;
+  }
+  .model div {
+    width: 100%;
+    height: 100%;
+  }
+  .meditationOptions {
+    width: 50%;
+    /* padding: 0.5%; */
+    max-height: 90vh;
+    overflow-y: auto;
+    /* padding: 0%; */
+    /* background-color: blue; */
+  }
+  .meditationItemsList {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+    /* align-items: center; */
+  }
+  .meditationItems {
+    width: 45%;
+    /* height: fit-content; */
+    margin: 0 1% 2% 1%;
+    padding: 0.3%;
+    background-color: rgba(60, 60, 60, 0.359);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.359),
+      rgba(60, 60, 60, 0.359)
+    );
+
+    &:hover {
+      animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+      background: linear-gradient(200deg, rgb(187, 0, 211), rgb(94, 0, 182));
+      background-size: 200% 200%;
+    }
+  }
+  .itemSection {
+    width: 94%;
+    padding: 3%;
+    /* height: 96%; */
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    /* text-align: center; */
+  }
+  .itemModel {
+    width: 100%;
+    max-height: 15rem;
+    min-height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    border-radius: 20px;
+  }
+  .itemModel img {
+    width: 80%;
+    height: fit-content;
+    /* max-width: 100%; */
+
+    /* height: 100%; */
+  }
+  .itemSection h3 {
+    width: 100%;
+    /* width: fit-content; */
+    margin: 0;
+    font-size: 1.6rem;
+    text-align: center;
+    /* background-color: aqua; */
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+  }
+
+  .itemSection h2 {
+    font-size: 1.2rem;
+    margin: 1%;
+    text-align: center;
+  }
+  .itemSection p {
+    width: 90%;
+    min-height: 2rem;
+    max-height: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    color: gray;
+  }
+  .freqBtn {
+    width: 98%;
+    padding: 1%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .freqBtn button {
+    cursor: pointer;
+    width: 13%;
+    padding: 2% 4%;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+    /* height: auto; */
+  }
+  .footer {
+    width: 100%;
+    background-color: black;
+    /* z-index: 1000; */
+    height: 3vh;
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+@keyframes twinkling {
+  0%,
+  100% {
+    background-opacity: 0.7;
+    filter: brightness(1);
+  }
+  50% {
+    background-opacity: 1;
+    filter: brightness(1);
+  }
+}

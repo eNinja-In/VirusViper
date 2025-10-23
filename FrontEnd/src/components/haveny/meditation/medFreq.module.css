@@ -1,0 +1,376 @@
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .medFocus {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .navBar {
+    width: 100%;
+    height: 4vh;
+    background-color: rgba(45, 45, 45, 0.319);
+  }
+  .medFreq {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.48);
+  }
+  .frequencyMain {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .freq3DModel {
+    width: 100%;
+    height: 75%;
+    /* background-color: rgb(14, 14, 14); */
+    /* display: none; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .freq3DModel div {
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+  }
+  .freqTitle {
+    width: 94%;
+    height: 10%;
+    padding: 0 3%;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .freqTitle h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    background: linear-gradient(
+      200deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background-size: 100% 100%;
+  }
+  .subHead {
+    width: 94%;
+    height: 5%;
+    padding: 0 3%;
+    display: flex;
+    background-color: black;
+
+    justify-content: center;
+  }
+  .subHead h3 {
+    font-size: 0.9rem;
+    color: gray;
+    margin: 0;
+  }
+
+  .freqControl {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: rgb(35, 35, 35);
+  }
+
+  .freqPlayBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.2s;
+  }
+
+  .freqPlayBtn:hover {
+    transform: scale(1.1);
+  }
+
+  .freqVolume {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+
+  .volumeSlider {
+    width: 100px;
+    cursor: pointer;
+  }
+  .copy {
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .medFocus {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .navBar {
+    width: 100%;
+    height: 6vh;
+    background-color: rgba(45, 45, 45, 0.319);
+  }
+  .medFreq {
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.48);
+  }
+  .frequencyMain {
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .freq3DModel {
+    width: 100%;
+    height: 85%;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .freq3DModel div {
+    width: 1000%;
+    height: 100%;
+    /* background-color: aquamarine; */
+  }
+  .freqTitle {
+    width: 100%;
+    color: white;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .freqTitle h1 {
+    font-size: 2.3rem;
+    margin: 0;
+    background: linear-gradient(
+      200deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background-size: 100% 100%;
+  }
+  .subHead {
+    width: 100%;
+    display: flex;
+    background-color: black;
+
+    justify-content: center;
+  }
+  .subHead h3 {
+    font-size: 1rem;
+    color: gray;
+    margin: 0;
+  }
+  .freqControl {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: rgb(35, 35, 35);
+  }
+
+  .freqPlayBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.2s;
+  }
+
+  .freqPlayBtn:hover {
+    transform: scale(1.1);
+  }
+
+  .freqVolume {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+
+  .volumeSlider {
+    width: 100px;
+    cursor: pointer;
+  }
+  .copy {
+    width: 100%;
+    height: 3vh;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .medFocus {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .navBar {
+    width: 100%;
+    height: 6vh;
+    background-color: rgba(45, 45, 45, 0.319);
+  }
+  .medFreq {
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.48);
+  }
+  .frequencyMain {
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .freq3DModel {
+    width: 100%;
+    height: 85%;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .freq3DModel div {
+    width: 1000%;
+    height: 100%;
+    /* background-color: aquamarine; */
+  }
+  .freqTitle {
+    width: 100%;
+    color: white;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .freqTitle h1 {
+    font-size: 2.3rem;
+    margin: 0;
+    background: linear-gradient(
+      200deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background-size: 100% 100%;
+  }
+  .subHead {
+    width: 100%;
+    display: flex;
+    background-color: black;
+
+    justify-content: center;
+  }
+  .subHead h3 {
+    font-size: 1rem;
+    color: gray;
+    margin: 0;
+  }
+  .freqControl {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: rgb(35, 35, 35);
+  }
+
+  .freqPlayBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.2s;
+  }
+
+  .freqPlayBtn:hover {
+    transform: scale(1.1);
+  }
+
+  .freqVolume {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+
+  .volumeSlider {
+    width: 100px;
+    cursor: pointer;
+  }
+  .copy {
+    width: 100%;
+    height: 3vh;
+  }
+}
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

@@ -1,0 +1,567 @@
+/* General styles (apply to all devices) */
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+  /* Add smartphone-specific styles here */
+  .main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginSection {
+    width: 98%;
+    margin: auto;
+    padding: 0;
+  }
+  .loginPage {
+    width: 99%;
+    padding: 0.3%;
+    border-radius: 10px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .login {
+    width: 94%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 3%;
+  }
+  .loginHead {
+    width: 100%;
+  }
+  .loginHeading {
+    width: 100%;
+  }
+  .virusViper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .virusViper h1 {
+    width: fit-content;
+    margin: 1%;
+    font-size: 1.7rem;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .loginError {
+    width: 100%;
+  }
+  .error {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  .default {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    color: transparent;
+    margin: 0;
+  }
+  .loginForm {
+    width: 96%;
+    padding: 2%;
+  }
+  .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    width: 100%;
+  }
+  .inputSection {
+    width: 80%;
+    margin: 4% auto;
+    padding: 0.5%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+  .input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .input input {
+    width: 90%;
+    padding: 2%;
+    font-size: 105%;
+    margin: 1%;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    color: white;
+  }
+
+  .submit {
+    width: 100%;
+    padding: 2% 0;
+  }
+  .submitBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitBtn button {
+    cursor: pointer;
+    width: 35%;
+    padding: 1.5%;
+    font-size: 100%;
+    font-weight: 600;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+
+  .signUp {
+    width: 100%;
+  }
+  .goToSignIn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .goToSignIn p {
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-size: 1rem;
+  }
+  .goToSignIn p a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .loginSection {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 0;
+  }
+  .loginPage {
+    width: 99%;
+    padding: 0.3%;
+    border-radius: 10px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .login {
+    width: 94%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 3%;
+  }
+  .loginHead {
+    width: 100%;
+  }
+  .loginHeading {
+    width: 100%;
+  }
+  .virusViper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .virusViper h1 {
+    width: fit-content;
+    margin: 1%;
+    font-size: 270%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .loginError {
+    width: 100%;
+  }
+  .error {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin: 0;
+  }
+  .default {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    color: transparent;
+    margin: 0;
+  }
+  .loginForm {
+    width: 96%;
+    padding: 2%;
+  }
+  .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    width: 80%;
+  }
+  .inputSection {
+    width: 80%;
+    margin: 4% auto;
+    padding: 0.5%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+  .input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .input input {
+    width: 90%;
+    padding: 2%;
+    font-size: 105%;
+    margin: 1%;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    color: white;
+  }
+
+  .submit {
+    width: 100%;
+    padding: 2% 0;
+  }
+  .submitBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitBtn button {
+    cursor: pointer;
+    width: 35%;
+    padding: 1.5%;
+    font-size: 100%;
+    font-weight: 600;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+
+  .signUp {
+    width: 100%;
+  }
+  .goToSignIn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .goToSignIn p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 100%;
+  }
+  .goToSignIn p a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/* Laptop */
+@media (width >= 1025px) {
+  .main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .loginSection {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 0;
+  }
+  .loginPage {
+    width: 99%;
+    padding: 0.3%;
+    border-radius: 10px;
+    animation: colorAnimation 1s ease infinite; /* Increased duration to 10s */
+    background: linear-gradient(200deg, rgb(225, 0, 255), rgb(131, 0, 254));
+    background-size: 200% 200%;
+  }
+
+  .login {
+    width: 94%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 3%;
+  }
+  .loginHead {
+    width: 100%;
+  }
+  .loginHeading {
+    width: 100%;
+  }
+  .virusViper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .virusViper h1 {
+    width: fit-content;
+    margin: 1%;
+    font-size: 270%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slightRight 1.8s ease forwards;
+    &:hover {
+      background: linear-gradient(
+        170deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+      -webkit-background-clip: text;
+    }
+  }
+  .loginError {
+    width: 100%;
+  }
+  .error {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin: 0;
+  }
+  .default {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    color: transparent;
+    margin: 0;
+  }
+  .loginForm {
+    width: 96%;
+    padding: 2%;
+  }
+  .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    width: 80%;
+  }
+  .inputSection {
+    width: 80%;
+    margin: 4% auto;
+    padding: 0.5%;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+  .input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .input input {
+    width: 90%;
+    padding: 2%;
+    font-size: 105%;
+    margin: 1%;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    color: white;
+  }
+
+  .submit {
+    width: 100%;
+    padding: 2% 0;
+  }
+  .submitBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitBtn button {
+    cursor: pointer;
+    width: 35%;
+    padding: 1.5%;
+    font-size: 100%;
+    font-weight: 600;
+    background: linear-gradient(
+      270deg,
+      rgb(220, 32, 245) 0%,
+      rgba(96, 0, 186, 0.838) 100%
+    );
+    animation: slightRight 1.8s ease forwards;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    &:hover {
+      background: linear-gradient(
+        200deg,
+        rgb(220, 32, 245) 0%,
+        rgba(96, 0, 186, 0.838) 100%
+      );
+    }
+  }
+
+  .signUp {
+    width: 100%;
+  }
+  .goToSignIn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .goToSignIn p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 100%;
+  }
+  .goToSignIn p a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 0% 20%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  70% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
