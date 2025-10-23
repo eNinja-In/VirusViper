@@ -1,0 +1,305 @@
+
+
+.gitattributes
+719ecf0ca8d61c67166533628f63815684b31bc9
+BackEnd
+BackEnd/.env
+BackEnd/AI
+BackEnd/AI/analyzeAI.js
+BackEnd/aiInitialization.js
+BackEnd/BG
+BackEnd/BG/bhagwatGeeta.js
+BackEnd/config
+BackEnd/config/dB.js
+BackEnd/controller
+BackEnd/controller/authController.js
+BackEnd/helper
+BackEnd/helper/authHelper.js
+BackEnd/index.js
+BackEnd/middleware
+BackEnd/middleware/authMiddleware.js
+BackEnd/models
+BackEnd/models/feedBackModel.js
+BackEnd/models/userModel.js
+BackEnd/package.json
+BackEnd/package-lock.json
+BackEnd/router
+BackEnd/router/authRouter.js
+BackEnd/router/feedbackRouter.js
+BackEnd/scanner
+BackEnd/scanner/scan.js
+BackEnd/utils
+BackEnd/utils/sendEmail.js
+f90dfb23b27055e87c6aa1acc77a3a7863d363be
+FrontEnd
+FrontEnd/.env
+FrontEnd/eslint.config.js
+FrontEnd/index.html
+FrontEnd/package.json
+FrontEnd/package-lock.json
+FrontEnd/public
+FrontEnd/public/aiChat
+FrontEnd/public/aiChat/geeta0.jpeg
+FrontEnd/public/aiChat/geeta1.jpeg
+FrontEnd/public/aiChat/geeta2.jpeg
+FrontEnd/public/aiChat/new.png
+FrontEnd/public/aiChat/slide.png
+FrontEnd/public/aiChat/slide1.png
+FrontEnd/public/aiChat/submit.png
+FrontEnd/public/backGroungMusic
+FrontEnd/public/backGroungMusic/2 Mins Lord Krishna's Flute Music for RELAXATION  Krishna flute flute music  krishna - Indian Meditation & Relaxation.mp3
+FrontEnd/public/backGroungMusic/Healing Flute  Meditation Music - Iftekharul Anam.mp3
+FrontEnd/public/DB
+FrontEnd/public/DB/about.json
+FrontEnd/public/DB/FAQ.json
+FrontEnd/public/DB/helpLine.json
+FrontEnd/public/DB/incidentStory.json
+FrontEnd/public/DB/legalGuidence.json
+FrontEnd/public/DB/meditationFrequency.json
+FrontEnd/public/DB/optionsData.json
+FrontEnd/public/DB/services.json
+FrontEnd/public/DB/tipTricks.json
+FrontEnd/public/DB/trending.json
+FrontEnd/public/DB/Updates.json
+FrontEnd/public/footerLogo.png
+FrontEnd/public/freQuency
+FrontEnd/public/freQuency/10Hz0.gif
+FrontEnd/public/freQuency/111Hz0.gif
+FrontEnd/public/freQuency/14Hz0.gif
+FrontEnd/public/freQuency/174Hz0.gif
+FrontEnd/public/freQuency/285Hz0.gif
+FrontEnd/public/freQuency/396Hz0.gif
+FrontEnd/public/freQuency/396Hz1.gif
+FrontEnd/public/freQuency/432Hz0.gif
+FrontEnd/public/freQuency/4Hz0.gif
+FrontEnd/public/freQuency/4Hz1.gif
+FrontEnd/public/freQuency/528Hz0.gif
+FrontEnd/public/freQuency/639Hz0.gif
+FrontEnd/public/freQuency/8Hz0.gif
+FrontEnd/public/freQuency/8Hz1.gif
+FrontEnd/public/freQuency/963Hz0.gif
+FrontEnd/public/freQuency/Audio
+FrontEnd/public/freQuency/Audio/10-Hz-Pure-Tone_136.1.mp3
+FrontEnd/public/freQuency/Audio/14Hz-Underwater--236-250-.mp3
+FrontEnd/public/freQuency/Audio/4-Hz-Pure-Tone_136.1.mp3
+FrontEnd/public/freQuency/Audio/8-Hz-Pure-Tone_105.mp3
+FrontEnd/public/freQuency/LCPT.gif
+FrontEnd/public/haveny
+FrontEnd/public/haveny/logo
+FrontEnd/public/haveny/logo/Art.png
+FrontEnd/public/haveny/logo/Connection.png
+FrontEnd/public/haveny/logo/Exercise.png
+FrontEnd/public/haveny/logo/Journaling.png
+FrontEnd/public/haveny/logo/meditation.png
+FrontEnd/public/haveny/logo/Mindfulness.png
+FrontEnd/public/haveny/logo/Nature.png
+FrontEnd/public/haveny/logo/Reading.png
+FrontEnd/public/haveny/logo/Spirituality.png
+FrontEnd/public/haveny/sprituality
+FrontEnd/public/haveny/sprituality/forest0.jpg
+FrontEnd/public/haveny/sprituality/forest1.jpg
+FrontEnd/public/haveny/sprituality/forest2.jpg
+FrontEnd/public/haveny/sprituality/forest3.jpg
+FrontEnd/public/haveny/sprituality/forest4.jpg
+FrontEnd/public/logo.png
+FrontEnd/public/Models
+FrontEnd/public/Models/ball_joint_doll_Exercise.glb
+FrontEnd/public/Models/exercise
+FrontEnd/public/Models/exercise/dancer_girl.glb
+FrontEnd/public/Models/exercise/exercise_girl.glb
+FrontEnd/public/Models/exercise/female_character.glb
+FrontEnd/public/Models/exercise/girl.glb
+FrontEnd/public/Models/exercise/girl_gameready_anim.glb
+FrontEnd/public/Models/exercise/girl_gameready_anim1.glb
+FrontEnd/public/Models/exercise/leopard_girl_streching.glb
+FrontEnd/public/Models/exercise/low_poly_boxing_girl.glb
+FrontEnd/public/Models/exercise/vindictus.glb
+FrontEnd/public/Models/haveny3D.glb
+FrontEnd/public/Models/homeVirusViperSkull.glb
+FrontEnd/public/Models/lord_krishna0.glb
+FrontEnd/public/Models/meditation
+FrontEnd/public/Models/meditation/12_animated_butterflies.glb
+FrontEnd/public/Models/meditation/buddha_protected_by_the_naga.glb
+FrontEnd/public/Models/meditation/dyson_sphere.glb
+FrontEnd/public/Models/meditation/earth.glb
+FrontEnd/public/Models/meditation/frozen_crystal_lotus_pedestal.glb
+FrontEnd/public/Models/meditation/lotus_flame_meditation.glb
+FrontEnd/public/Models/meditation/mercury.glb
+FrontEnd/public/Models/meditation/mesh_character_in_meditation__inside_merkaba.glb
+FrontEnd/public/Models/meditation/mesh_character_in_meditation__inside_merkaba1.glb
+FrontEnd/public/Models/meditation/obelisk_of_xulazar.glb
+FrontEnd/public/Models/meditation/om_mani_padme_hum_white_letters.glb
+FrontEnd/public/Models/meditation/sun.glb
+FrontEnd/public/Models/meditation/testgw.glb
+FrontEnd/public/Models/meditation/the_universe.glb
+FrontEnd/public/Models/meditation/yoga_hand.glb
+FrontEnd/public/Models/meditation_pose_female.glb
+FrontEnd/public/Models/New folder
+FrontEnd/public/Models/New folder/combat_robot_ready_for_unreal_engine.glb
+FrontEnd/public/Models/New folder/fish_hologram.glb
+FrontEnd/public/Models/New folder/guyver-thriller.glb
+FrontEnd/public/Models/New folder/Heart.glb
+FrontEnd/public/Models/New folder/hero_guinevere_lotus_lobby.glb
+FrontEnd/public/Models/New folder/jupiter.glb
+FrontEnd/public/Models/New folder/meditation_diorama (1).glb
+FrontEnd/public/Models/New folder/meditation_diorama.glb
+FrontEnd/public/Models/New folder/mesh.glb
+FrontEnd/public/Models/New folder/next_week_at_freddys_foxy.glb
+FrontEnd/public/Models/New folder/pubg_mobile_hello_waving_hand_animation.glb
+FrontEnd/public/Models/New folder/pujari.glb
+FrontEnd/public/Models/sprituality
+FrontEnd/public/Models/sprituality/lord_krishna1.glb
+FrontEnd/public/Models/sprituality/lord_krishna2.glb
+FrontEnd/public/Models/sprituality/lord_krishna3.glb
+FrontEnd/public/Models/sprituality/lord_krishna4.glb
+FrontEnd/public/Models/sprituality/lord_krishna5.glb
+FrontEnd/public/Models/virox
+FrontEnd/public/Models/virox/viroxModel.glb
+FrontEnd/public/Models/VirusViper.glb
+FrontEnd/public/serverError.png
+FrontEnd/public/services
+FrontEnd/public/services/3D Guardian.gif
+FrontEnd/public/services/AI Cyber Sentinel.gif
+FrontEnd/public/services/Cyber Rescue AI.gif
+FrontEnd/public/services/Mind Shield.gif
+FrontEnd/public/services/Threat Scanner.webp
+FrontEnd/public/threatScan
+FrontEnd/public/threatScan/safe.jpg
+FrontEnd/public/threatScan/unsafe.jpg
+FrontEnd/public/tipsTricks
+FrontEnd/public/tipsTricks/awareness_of_cyber_threats.png
+FrontEnd/public/tipsTricks/awareness_of_cyber_threats1.png
+FrontEnd/public/tipsTricks/data_backup.png
+FrontEnd/public/tipsTricks/data_backup1.png
+FrontEnd/public/tipsTricks/device_security.png
+FrontEnd/public/tipsTricks/device_security0.png
+FrontEnd/public/tipsTricks/email_safety.png
+FrontEnd/public/tipsTricks/email_safety1.png
+FrontEnd/public/tipsTricks/password_security.png
+FrontEnd/public/tipsTricks/password_security0.png
+FrontEnd/public/tipsTricks/password_security1.png
+FrontEnd/public/tipsTricks/privacy_protection.png
+FrontEnd/public/tipsTricks/privacy_protection1.png
+FrontEnd/public/tipsTricks/public_wifi_usage.png
+FrontEnd/public/tipsTricks/public_wifi_usage0.png
+FrontEnd/public/tipsTricks/safe_browsing.png
+FrontEnd/public/tipsTricks/safe_browsing0.png
+FrontEnd/public/tipsTricks/secure_online_transactions.png
+FrontEnd/public/tipsTricks/secure_online_transactions1.png
+FrontEnd/public/tipsTricks/social_media_safety.png
+FrontEnd/public/tipsTricks/social_media_safety1.png
+FrontEnd/public/virox
+FrontEnd/public/virox/viroxBackGround0.jpg
+FrontEnd/public/virox/viroxBackGround1.jpg
+FrontEnd/public/virox/viroxBackGround2.jpg
+FrontEnd/public/virox/viroxBackGround4.jpg
+FrontEnd/public/virox/viroxBackGround5.jpg
+FrontEnd/README.md
+FrontEnd/src
+FrontEnd/src/App.jsx
+FrontEnd/src/assets
+FrontEnd/src/assets/copyRight.jsx
+FrontEnd/src/assets/meditationFrequency.json
+FrontEnd/src/assets/model3D.jsx
+FrontEnd/src/assets/SVG.jsx
+FrontEnd/src/assets/typpingEffect.jsx
+FrontEnd/src/components
+FrontEnd/src/components/about
+FrontEnd/src/components/about/about.jsx
+FrontEnd/src/components/about/about.module.css
+FrontEnd/src/components/about/aboutFeedback.jsx
+FrontEnd/src/components/about/aboutFeedback.module.css
+FrontEnd/src/components/about/aboutJoin.jsx
+FrontEnd/src/components/about/aboutJoin.module.css
+FrontEnd/src/components/about/aboutMain.jsx
+FrontEnd/src/components/about/aboutVision.module.css
+FrontEnd/src/components/haveny
+FrontEnd/src/components/haveny/exercise
+FrontEnd/src/components/haveny/exercise/exeMain.jsx
+FrontEnd/src/components/haveny/exercise/exeMain.module.css
+FrontEnd/src/components/haveny/exercise/exercisePosition.jsx
+FrontEnd/src/components/haveny/exercise/exercisePosition.module.css
+FrontEnd/src/components/haveny/haveny.jsx
+FrontEnd/src/components/haveny/haveny.module.css
+FrontEnd/src/components/haveny/havenyHome
+FrontEnd/src/components/haveny/havenyHome/havenyItems.jsx
+FrontEnd/src/components/haveny/havenyHome/havenyItems.module.css
+FrontEnd/src/components/haveny/havenyHome/havenyMain.jsx
+FrontEnd/src/components/haveny/havenyHome/havenyMain.module.css
+FrontEnd/src/components/haveny/meditation
+FrontEnd/src/components/haveny/meditation/medFreq.jsx
+FrontEnd/src/components/haveny/meditation/medFreq.module.css
+FrontEnd/src/components/haveny/meditation/meditation.jsx
+FrontEnd/src/components/haveny/meditation/meditation.module.css
+FrontEnd/src/components/haveny/sprituality
+FrontEnd/src/components/haveny/sprituality/sprituality.jsx
+FrontEnd/src/components/haveny/sprituality/sprituality.module.css
+FrontEnd/src/components/home
+FrontEnd/src/components/home/home.jsx
+FrontEnd/src/components/home/home.module.css
+FrontEnd/src/components/home/homeMain.jsx
+FrontEnd/src/components/home/keyServices.module.css
+FrontEnd/src/components/navBar-Footer
+FrontEnd/src/components/navBar-Footer/chatNavBar.jsx
+FrontEnd/src/components/navBar-Footer/chatNavBar.module.css
+FrontEnd/src/components/navBar-Footer/footerBar.jsx
+FrontEnd/src/components/navBar-Footer/footerBar.module.css
+FrontEnd/src/components/navBar-Footer/navBar.jsx
+FrontEnd/src/components/navBar-Footer/navBar.module.css
+FrontEnd/src/components/other
+FrontEnd/src/components/other/loader.jsx
+FrontEnd/src/components/other/loader.module.css
+FrontEnd/src/components/other/privateComp.jsx
+FrontEnd/src/components/other/scrollTop.jsx
+FrontEnd/src/components/other/serverError.jsx
+FrontEnd/src/components/other/serverError.module.css
+FrontEnd/src/components/services
+FrontEnd/src/components/services/scanner
+FrontEnd/src/components/services/scanner/scanner.jsx
+FrontEnd/src/components/services/scanner/scanner.module.css
+FrontEnd/src/components/services/scanner/scanResult
+FrontEnd/src/components/services/scanner/scanResult/scanResultAnalysis.jsx
+FrontEnd/src/components/services/scanner/scanResult/scanResultAnalysis.module.css
+FrontEnd/src/components/services/scanner/scanResult/scanResultAttributes.jsx
+FrontEnd/src/components/services/scanner/scanResult/scanResultAttributes.module.css
+FrontEnd/src/components/services/scanner/scanResult/scanResultHead.jsx
+FrontEnd/src/components/services/scanner/scanResult/scanResultHead.module.css
+FrontEnd/src/components/services/scanner/scanResult/scanResultMain.jsx
+FrontEnd/src/components/services/scanner/scanResult/scanResultMain.module.css
+FrontEnd/src/components/services/services.jsx
+FrontEnd/src/components/services/services.module.css
+FrontEnd/src/components/signIn
+FrontEnd/src/components/signIn/login.jsx
+FrontEnd/src/components/signIn/login.module.css
+FrontEnd/src/components/signIn/signIn.jsx
+FrontEnd/src/components/signIn/signIn.module.css
+FrontEnd/src/components/tipsTricks
+FrontEnd/src/components/tipsTricks/tips.jsx
+FrontEnd/src/components/tipsTricks/tips.module.css
+FrontEnd/src/components/victimCheck
+FrontEnd/src/components/victimCheck/victimCheckMain.jsx
+FrontEnd/src/components/victimCheck/victimCheckMain.module.css
+FrontEnd/src/components/virox
+FrontEnd/src/components/virox/chatMain.jsx
+FrontEnd/src/components/virox/chatMain.module.css
+FrontEnd/src/components/virox/chatVirox.jsx
+FrontEnd/src/components/virox/chatVirox.module.css
+FrontEnd/src/index.css
+FrontEnd/src/main.jsx
+FrontEnd/vite.config.js
+README.md
+SS
+SS/SS
+SS/SS/Screenshot 2025-01-20 150358.jpg
+SS/SS/Screenshot 2025-01-20 150421.jpg
+SS/SS/Screenshot 2025-01-20 150544.jpg
+SS/SS/Screenshot 2025-01-20 151015.jpg
+SS/SS/Screenshot 2025-01-20 204553.jpg
+SS/SS/Screenshot 2025-01-21 023714.jpg
+SS/SS/Screenshot 2025-01-21 025230.jpg
+SS/SS/Screenshot 2025-01-21.jpg
+SS/update
+SS/update/photo_6129690485363689391_y (1).jpg
+SS/update/photo_6129690485363689392_y.jpg
+SS/update/photo_6129690485363689393_y.jpg
+SS/update/photo_6129690485363689397_y.jpg
