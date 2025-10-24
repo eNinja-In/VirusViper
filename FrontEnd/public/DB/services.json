@@ -1,0 +1,46 @@
+{
+  "services": [
+    {
+      "sid": 1,
+      "serviceName": "Next-Gen Threat Detection",
+      "subheading": "Identify and Neutralize Risks",
+      "description": "Harness advanced algorithms to detect and respond to potential threats, ensuring your digital assets remain secure from malicious attacks in real-time.",
+      "linkOfService": "https://virusviper.com/services/threat-detection"
+    },
+    {
+      "sid": 2,
+      "serviceName": "AI-Driven CyberShield",
+      "subheading": "AI-Powered Cyber Defense",
+      "description": "Revolutionize your security infrastructure with cutting-edge AI intelligence that predicts, prevents, and defends against evolving cyber threats seamlessly and efficiently.",
+      "linkOfService": "https://virusviper.com/services/cybersecurity-ai-intelligence"
+    },
+    {
+      "sid": 3,
+      "serviceName": "Geeta AI: Psychological Solutions",
+      "subheading": "Ancient Wisdom Meets AI",
+      "description": "Empower your mind with Geeta-inspired AI solutions, offering profound psychological insights to overcome challenges and achieve mental clarity effortlessly.",
+      "linkOfService": "https://virusviper.com/services/geeta-ai"
+    },
+    {
+      "sid": 4,
+      "serviceName": "Meditation Intelligence Hub",
+      "subheading": "Your Path to Inner Peace",
+      "description": "Unlock the potential of guided meditation intelligence for achieving mental tranquility, focus, and stress relief tailored to your personal needs.",
+      "linkOfService": "https://virusviper.com/services/meditation-intelligence"
+    },
+    {
+      "sid": 5,
+      "serviceName": "Ancient Fitness Reimagined",
+      "subheading": "Revive Timeless Exercise Techniques",
+      "description": "Explore effective, ancient exercise methodologies fused with modern science to enhance your physical health and well-being like never before.",
+      "linkOfService": "https://virusviper.com/services/ancient-fitness"
+    },
+    {
+      "sid": 6,
+      "serviceName": "Interactive 3D Models",
+      "subheading": "Engage with Immersive Experiences",
+      "description": "Dive into an interactive 3D environment that educates and engages users through visually stunning and responsive models designed to leave a lasting impression.",
+      "linkOfService": "https://virusviper.com/services/3d-models"
+    }
+  ]
+}

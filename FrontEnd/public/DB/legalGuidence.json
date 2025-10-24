@@ -1,0 +1,73 @@
+{
+  "cybersecurity_legal_guidance": {
+    "compliance_with_indian_laws": {
+      "Information_Technology_Act_2000": {
+        "objective": "Ensure compliance with provisions of the IT Act, governing electronic transactions, data protection, and cybersecurity.",
+        "key_provisions": {
+          "section_43": "Protect user data from unauthorized access or hacking. Misuse of user data can result in penalties.",
+          "section_66": "Impose penalties for cybercrimes like hacking or identity theft.",
+          "section_69": "Follow government orders for monitoring, decryption, or blocking of data when legally required.",
+          "section_72": "Maintain confidentiality of user information collected through the website.",
+          "section_79": "Implement due diligence as an intermediary to avoid liability for third-party content."
+        }
+      },
+      "Data_Protection_Rules_2011": {
+        "objective": "Adhere to guidelines for storing and processing sensitive personal data.",
+        "key_provisions": {
+          "collection": "Obtain user consent before collecting personal or sensitive data.",
+          "storage": "Store data securely with appropriate encryption standards.",
+          "usage": "Use collected data only for specified purposes and with user consent.",
+          "disclosure": "Disclose data to third parties only with user consent or as required by law."
+        }
+      },
+      "Indian_Contract_Act_1872": {
+        "objective": "Ensure terms and conditions on the website constitute a valid agreement with users.",
+        "key_provisions": {
+          "terms_of_service": "Include clear terms of use for your services.",
+          "user_agreement": "Obtain user consent to the terms before providing services."
+        }
+      },
+      "Privacy_Policies": {
+        "objective": "Maintain transparency about data collection and usage.",
+        "key_provisions": {
+          "clarity": "Clearly explain what data is collected and why.",
+          "user_rights": "Provide users the right to access, correct, and delete their data.",
+          "third_party_disclosure": "Disclose any sharing of data with third parties."
+        }
+      }
+    },
+    "website_security_practices": {
+      "secure_data_transfer": {
+        "description": "Use HTTPS and SSL/TLS for encrypted communication."
+      },
+      "regular_security_audits": {
+        "description": "Conduct regular penetration testing and audits."
+      },
+      "user_authentication": {
+        "description": "Implement secure authentication mechanisms, such as multi-factor authentication."
+      },
+      "data_breach_response": {
+        "description": "Have a policy to notify users and authorities in case of a data breach."
+      }
+    },
+    "content_guidelines": {
+      "accurate_information": {
+        "description": "Ensure that all cybersecurity information shared is accurate and fact-checked."
+      },
+      "disclaimer": {
+        "description": "Include a disclaimer stating that the website does not guarantee absolute security."
+      },
+      "responsible_reporting": {
+        "description": "Avoid sharing sensitive information that could assist malicious actors."
+      }
+    },
+    "government_collaboration": {
+      "incident_reporting": {
+        "description": "Report any detected cyber threats to CERT-In (Indian Computer Emergency Response Team)."
+      },
+      "compliance_with_orders": {
+        "description": "Respond promptly to lawful government requests for information."
+      }
+    }
+  }
+}
