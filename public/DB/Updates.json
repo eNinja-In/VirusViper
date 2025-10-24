@@ -1,0 +1,67 @@
+{
+  "updates": [
+    {
+      "id": 1,
+      "title": "Critical Security Patch",
+      "date": "2024-09-05",
+      "description": "A critical security vulnerability was identified in the system. This patch addresses it with immediate effect.",
+      "severity": "High",
+      "type": "Security",
+      "image": "/images/update1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Bug Fix Release",
+      "date": "2024-09-06",
+      "description": "This release fixes minor bugs reported in the previous version. No significant changes in functionality.",
+      "severity": "Medium",
+      "type": "Patch",
+      "image": "/images/update2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Feature Enhancement",
+      "date": "2024-09-07",
+      "description": "New features have been added to enhance user experience, including improved navigation and better performance.",
+      "severity": "Low",
+      "type": "Enhancement",
+      "image": "/images/update3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Server Downtime",
+      "date": "2024-09-08",
+      "description": "Scheduled server maintenance will occur between 1 AM and 4 AM. Services may be disrupted during this period.",
+      "severity": "Low",
+      "type": "Maintenance",
+      "image": "/images/update4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "New Security Features",
+      "date": "2024-09-09",
+      "description": "Introduced new multi-factor authentication (MFA) for all users to enhance account security.",
+      "severity": "High",
+      "type": "Security",
+      "image": "/images/update5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Data Backup Improvements",
+      "date": "2024-09-10",
+      "description": "Improved data backup system to ensure faster recovery and better data protection in case of failures.",
+      "severity": "Medium",
+      "type": "Improvement",
+      "image": "/images/update6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Mobile App Update",
+      "date": "2024-09-11",
+      "description": "A new version of the mobile app is now available with bug fixes and performance improvements.",
+      "severity": "Low",
+      "type": "Update",
+      "image": "/images/update7.jpg"
+    }
+  ]
+}

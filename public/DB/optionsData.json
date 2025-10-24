@@ -1,0 +1,57 @@
+[
+    {
+      "imageLink": "/meditation.png",
+      "title": "Meditation",
+      "description": "Calm your mind, reduce stress, and find inner peace daily.",
+      "pageLink": "/meditation"
+    },
+    {
+      "imageLink": "/Exercise.png",
+      "title": "Exercise",
+      "description": "Boost energy, release tension, and strengthen body and mind together.",
+      "pageLink": "/exercise"
+    },
+    {
+      "imageLink": "/Spirituality.png",
+      "title": "Spirituality",
+      "description": "Connect with deeper purpose, fostering resilience and inner healing.",
+      "pageLink": "/spirituality"
+    },
+    {
+      "imageLink": "/Mindfulness.png",
+      "title": "Mindfulness",
+      "description": "Stay present, reduce anxiety, and gain clarity in each moment.",
+      "pageLink": "/mindfulness"
+    },
+    {
+      "imageLink": "/Reading.png",
+      "title": "Reading",
+      "description": "Expand knowledge, find comfort, and escape into inspiring new worlds.",
+      "pageLink": "/reading"
+    },
+    {
+      "imageLink": "/Nature.png",
+      "title": "Nature",
+      "description": "Rejuvenate your spirit and find calm by connecting with nature.",
+      "pageLink": "/nature"
+    },
+    {
+      "imageLink": "/Art.png",
+      "title": "Art",
+      "description": "Express emotions creatively, releasing stress and discovering inner joy.",
+      "pageLink": "/art"
+    },
+    {
+      "imageLink": "/Connection.png",
+      "title": "Connection",
+      "description": "Build supportive relationships to share, heal, and grow stronger together.",
+      "pageLink": "/connection"
+    },
+    {
+      "imageLink": "/Journaling.png",
+      "title": "Journaling",
+      "description": "Reflect on thoughts, release stress, and gain emotional clarity daily.",
+      "pageLink": "/journaling"
+    }
+  ]
+  

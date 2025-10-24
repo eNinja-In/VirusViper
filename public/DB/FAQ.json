@@ -1,0 +1,88 @@
+{
+  "faqs": [
+    {
+      "question": "What should I do if my social media account is hacked?",
+      "solution": "Immediately change your account password, log out of all sessions, enable two-factor authentication, and report the issue to the platform’s support team. Notify your contacts to avoid potential scams."
+    },
+    {
+      "question": "How can I create a strong password?",
+      "solution": "Use a combination of at least 12 characters, including uppercase letters, lowercase letters, numbers, and symbols. Avoid personal information like your name or birthdate to ensure maximum security."
+    },
+    {
+      "question": "How do I check if a website is secure?",
+      "solution": "Look for 'https://' at the beginning of the URL, a padlock icon in the browser’s address bar, and verify the site's authenticity through reviews and secure payment options."
+    },
+    {
+      "question": "What should I do if I fall for a phishing scam?",
+      "solution": "Change your passwords immediately, especially for affected accounts. Report the phishing attempt to relevant authorities or organizations, and monitor your financial accounts for suspicious activities."
+    },
+    {
+      "question": "How do I identify a phishing email?",
+      "solution": "Phishing emails often have spelling errors, unrecognized senders, or urgent demands for personal information. Verify suspicious links by hovering over them and avoid opening unknown attachments."
+    },
+    {
+      "question": "Can public Wi-Fi networks be unsafe?",
+      "solution": "Yes, public Wi-Fi is vulnerable to cyberattacks. Avoid entering sensitive information or accessing banking apps. Use a VPN to encrypt your connection and enhance security when using public networks."
+    },
+    {
+      "question": "What is two-factor authentication (2FA)?",
+      "solution": "Two-factor authentication adds a second verification layer, like a code sent to your phone or biometric scan, along with your password, significantly enhancing the security of your accounts."
+    },
+    {
+      "question": "How can I protect my smartphone from cyber threats?",
+      "solution": "Keep your phone's operating system updated, use trusted apps from official app stores, install reliable antivirus software, and avoid connecting to unsecured Wi-Fi networks to minimize risks."
+    },
+    {
+      "question": "What should I do if my device is infected with malware?",
+      "solution": "Disconnect the device from the internet, run a full antivirus or anti-malware scan, and follow instructions to quarantine or remove the malware. Update your software to prevent future infections."
+    },
+    {
+      "question": "How can I recognize fake apps?",
+      "solution": "Check app reviews, verify the developer’s credentials, and compare download numbers. Avoid downloading apps from third-party sites and stick to official app stores like Google Play or Apple’s App Store."
+    },
+    {
+      "question": "What is ransomware, and how can I avoid it?",
+      "solution": "Ransomware encrypts your files and demands payment. Avoid clicking suspicious links, back up your data frequently, and use antivirus software to prevent unauthorized access to your files and systems."
+    },
+    {
+      "question": "How do I report cybercrime in India?",
+      "solution": "Visit the National Cyber Crime Reporting Portal (https://cybercrime.gov.in) to file a complaint or contact your nearest cyber police station with relevant details for further assistance and investigation."
+    },
+    {
+      "question": "Is it safe to save passwords in browsers?",
+      "solution": "No, it’s better to use a secure password manager instead of browsers. Browsers can be compromised, exposing your credentials. Password managers encrypt your data for added protection."
+    },
+    {
+      "question": "How can I avoid online scams while shopping?",
+      "solution": "Shop only on trusted e-commerce websites, verify seller ratings, and avoid deals that seem too good to be true. Use secure payment methods and check for HTTPS in the URL."
+    },
+    {
+      "question": "What should I do if my credit card details are stolen?",
+      "solution": "Immediately notify your bank to block the card and prevent unauthorized transactions. Monitor your bank account and file a report with your local cybercrime authority for further investigation."
+    },
+    {
+      "question": "What is spyware, and how can I prevent it?",
+      "solution": "Spyware monitors your activity and steals data. Avoid downloading files from untrusted sources, regularly update software, and use reliable antivirus programs to detect and prevent spyware installation."
+    },
+    {
+      "question": "Can clicking on unknown links lead to hacking?",
+      "solution": "Yes, unknown links may redirect to malicious sites or install malware. Always verify the link's source before clicking, and avoid interacting with links in unsolicited emails or messages."
+    },
+    {
+      "question": "How do I protect my email account from hacking?",
+      "solution": "Use a strong, unique password and enable two-factor authentication. Be cautious of phishing emails, avoid clicking unknown links, and regularly monitor your account for unauthorized access attempts."
+    },
+    {
+      "question": "What is the safest way to store sensitive data?",
+      "solution": "Store sensitive data in encrypted formats using trusted storage solutions. Regularly back up your data and avoid using unsecured or publicly accessible storage platforms for confidential files."
+    },
+    {
+      "question": "How can I verify the authenticity of an online seller?",
+      "solution": "Check customer reviews, verify their contact information, and ensure they provide secure payment methods. If in doubt, avoid transactions with sellers that seem suspicious or lack transparency."
+    },
+    {
+      "question": "What should I do if my bank account is hacked?",
+      "solution": "Contact your bank immediately to freeze your account and report the incident. File a complaint with the cybercrime department and monitor your account for further suspicious activity."
+    }
+  ]
+}
